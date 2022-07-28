@@ -1,0 +1,2030 @@
+(python-env) user@linux-pc:~/Рабочий стол/crash protect$ python main.py
+[12.06.2022 21:29:21] Начало запуска бота
+[21:29:22] TRACE    load_ssl_context verify=True cert=None         _utils.py:261
+                    trust_env=True http2=False                                  
+           TRACE    load_verify_locations                          _utils.py:261
+                    cafile=/home/user/Рабочий стол/crash protect/p              
+                    ython-env/lib/python3.8/site-packages/certifi/              
+                    cacert.pem                                                  
+config loaded
+antiflood loaded
+antiinvite loaded
+antiraid loaded
+bans loaded
+locks loaded
+mutes loaded
+warns loaded
+invited loaded
+perms loaded
+rr-new loaded
+whitelist loaded
+quarantine loaded
+bot-bl loaded
+logs loaded
+bonus loaded
+antinuke loaded
+bot_stats loaded
+premium loaded
+invoices loaded
+allowed loaded
+[21:29:29] DEBUG    matplotlib data path: /home/user/Рабочий     __init__.py:275
+                    стол/crash protect/python-env/lib/python3.8/                
+                    site-packages/matplotlib/mpl-data                           
+           DEBUG    CONFIGDIR=/home/user/.config/matplotlib      __init__.py:275
+           DEBUG    interactive is False                        __init__.py:1445
+           DEBUG    platform is linux                           __init__.py:1446
+           DEBUG    loaded modules: ['sys', 'builtins',         __init__.py:1447
+                    '_frozen_importlib', '_imp', '_warnings',                   
+                    '_io', 'marshal', 'posix',                                  
+                    '_frozen_importlib_external', '_thread',                    
+                    '_weakref', 'time', 'zipimport', '_codecs',                 
+                    'codecs', 'encodings.aliases', 'encodings',                 
+                    'encodings.utf_8', '_signal', '__main__',                   
+                    'encodings.latin_1', '_abc', 'abc', 'io',                   
+                    '_stat', 'stat', '_collections_abc',                        
+                    'genericpath', 'posixpath', 'os.path',                      
+                    'os', '_sitebuiltins', '_locale',                           
+                    '_bootlocale', '_virtualenv',                               
+                    '_distutils_hack', 'types',                                 
+                    'importlib._bootstrap',                                     
+                    'importlib._bootstrap_external',                            
+                    'warnings', 'importlib',                                    
+                    'importlib.machinery', 'importlib.abc',                     
+                    '_operator', 'operator', 'keyword',                         
+                    '_heapq', 'heapq', 'itertools', 'reprlib',                  
+                    '_collections', 'collections',                              
+                    '_functools', 'functools', 'contextlib',                    
+                    'importlib.util', 'mpl_toolkits', 'zc',                     
+                    'sitecustomize', 'site', 'math',                            
+                    '_datetime', 'datetime', 'enum', '_sre',                    
+                    'sre_constants', 'sre_parse',                               
+                    'sre_compile', 'copyreg', 're', 'token',                    
+                    'tokenize', 'linecache', 'traceback',                       
+                    '_weakrefset', 'weakref',                                   
+                    'collections.abc', '_string', 'string',                     
+                    'threading', 'atexit', 'logging',                           
+                    'typing.io', 'typing.re', 'typing',                         
+                    'rich._extension', 'rich', 'fnmatch',                       
+                    'ntpath', 'errno', 'urllib',                                
+                    'urllib.parse', 'pathlib',                                  
+                    'rich._cell_widths', 'typing_extensions',                   
+                    'rich._lru_cache', 'rich.cells', '_opcode',                 
+                    'opcode', 'dis', 'inspect', 'rich.repr',                    
+                    '_bisect', 'bisect', '_sha512', '_random',                  
+                    'random', 'rich.errors', 'platform',                        
+                    'colorsys', 'rich.color_triplet',                           
+                    'rich.palette', 'rich._palettes',                           
+                    'rich.terminal_theme', 'signal',                            
+                    '_posixsubprocess', 'select', 'selectors',                  
+                    'subprocess', 'rich.color', 'rich.style',                   
+                    'rich.segment', 'rich.jupyter',                             
+                    'rich._emoji_codes', 'rich._emoji_replace',                 
+                    'rich.emoji', 'rich._loop', 'rich._pick',                   
+                    'rich._wrap', 'rich.protocol',                              
+                    'rich.measure', 'rich.constrain',                           
+                    'rich.align', 'rich.containers',                            
+                    'rich.control', 'rich.text',                                
+                    'rich._log_render', 'zlib', 'copy',                         
+                    'dataclasses', 'termios', 'getpass',                        
+                    'html.entities', 'html',                                    
+                    'rich.default_styles', 'configparser',                      
+                    'rich.theme', 'rich.themes',                                
+                    'rich._export_format', 'rich.highlighter',                  
+                    '_ast', 'ast', 'rich.markup', 'rich.pager',                 
+                    'array', '__future__', 'attr._compat',                      
+                    'attr._config', 'attr.exceptions',                          
+                    'attr.setters', 'attr._make',                               
+                    'attr.converters', 'attr.filters',                          
+                    'attr.validators', 'attr._cmp',                             
+                    'attr._funcs', 'attr._version_info',                        
+                    'attr._next_gen', 'attr', 'rich.abc',                       
+                    'rich.pretty', 'rich.region', 'rich.box',                   
+                    'rich.padding', 'rich.panel', 'numbers',                    
+                    '_decimal', 'decimal', 'fractions',                         
+                    'rich._ratio', 'rich.table', 'rich.scope',                  
+                    'rich.screen', 'rich.styled',                               
+                    'rich.console', 'pygments',                                 
+                    'pygments.lexers._mapping',                                 
+                    'pygments.modeline', 'pygments.plugin',                     
+                    'pygments.util', 'pygments.lexers',                         
+                    'pygments.token', 'rich.columns',                           
+                    'textwrap', 'pygments.filter',                              
+                    'pygments.filters', 'pygments.regexopt',                    
+                    'pygments.lexer', 'pygments.style',                         
+                    'pygments.styles', 'rich.syntax',                           
+                    'rich.traceback', 'rich.logging',                           
+                    'pkgutil', 'concurrent',                                    
+                    'concurrent.futures._base',                                 
+                    'concurrent.futures', '_socket', 'socket',                  
+                    '_ssl', '_struct', 'struct', 'binascii',                    
+                    'base64', 'ssl', 'asyncio.constants',                       
+                    'asyncio.format_helpers',                                   
+                    'asyncio.base_futures', 'asyncio.log',                      
+                    'asyncio.coroutines', '_contextvars',                       
+                    'contextvars', 'asyncio.exceptions',                        
+                    'asyncio.base_tasks', '_asyncio',                           
+                    'asyncio.events', 'asyncio.futures',                        
+                    'asyncio.protocols', 'asyncio.transports',                  
+                    'asyncio.sslproto', 'asyncio.locks',                        
+                    'asyncio.tasks', 'asyncio.staggered',                       
+                    'asyncio.trsock', 'asyncio.base_events',                    
+                    'asyncio.runners', 'asyncio.queues',                        
+                    'asyncio.streams', 'asyncio.subprocess',                    
+                    'asyncio.base_subprocess',                                  
+                    'asyncio.selector_events',                                  
+                    'asyncio.unix_events', 'asyncio',                           
+                    'multidict._abc',                                           
+                    'multidict._multidict_base',                                
+                    'multidict._multidict',                                     
+                    'multidict._compat', 'multidict',                           
+                    'aiohttp.hdrs', '_hashlib', '_blake2',                      
+                    '_sha3', 'hashlib', '_json',                                
+                    'json.scanner', 'json.decoder',                             
+                    'json.encoder', 'json', 'ipaddress',                        
+                    'idna.package_data', 'idna.idnadata',                       
+                    'unicodedata', 'idna.intranges',                            
+                    'idna.core', 'idna', 'cython_runtime',                      
+                    'yarl._quoting_c', 'yarl._quoting',                         
+                    'yarl._url', 'yarl', 'http', 'email',                       
+                    'locale', 'calendar', 'email._parseaddr',                   
+                    'email.base64mime', 'email.quoprimime',                     
+                    'email.errors', 'quopri', 'email.encoders',                 
+                    'email.charset', 'email.utils',                             
+                    'email.header', 'email._policybase',                        
+                    'email.feedparser', 'email.parser', 'uu',                   
+                    'email._encoded_words', 'email.iterators',                  
+                    'email.message', 'http.client',                             
+                    'mimetypes', '_compression', '_bz2', 'bz2',                 
+                    '_lzma', 'lzma', 'pwd', 'grp', 'shutil',                    
+                    'socketserver', 'http.server',                              
+                    'aiohttp.typedefs',                                         
+                    'aiohttp.http_exceptions',                                  
+                    'aiohttp.tcp_helpers',                                      
+                    'aiohttp.base_protocol', 'tempfile', 'cgi',                 
+                    'shlex', 'netrc', 'urllib.response',                        
+                    'urllib.error', 'urllib.request',                           
+                    'async_timeout', 'aiohttp.log',                             
+                    'aiohttp._helpers', 'aiohttp.helpers',                      
+                    'http.cookies', 'aiohttp.abc',                              
+                    'aiohttp._http_writer',                                     
+                    'aiohttp.http_writer', 'aiohttp.streams',                   
+                    '_cython_0_29_21', 'aiohttp._http_parser',                  
+                    'aiohttp.http_parser',                                      
+                    'aiohttp._websocket',                                       
+                    'aiohttp.http_websocket', 'aiohttp.http',                   
+                    'aiohttp.payload',                                          
+                    'aiohttp.client_exceptions', '_uuid',                       
+                    'uuid', 'aiohttp.multipart',                                
+                    'aiohttp.formdata', 'chardet.enums',                        
+                    'chardet.charsetprober',                                    
+                    'chardet.charsetgroupprober',                               
+                    'chardet.codingstatemachine',                               
+                    'chardet.escsm', 'chardet.escprober',                       
+                    'chardet.latin1prober', 'chardet.mbcssm',                   
+                    'chardet.utf8prober',                                       
+                    'chardet.mbcharsetprober',                                  
+                    'chardet.euctwfreq', 'chardet.euckrfreq',                   
+                    'chardet.gb2312freq', 'chardet.big5freq',                   
+                    'chardet.jisfreq',                                          
+                    'chardet.chardistribution',                                 
+                    'chardet.jpcntx', 'chardet.sjisprober',                     
+                    'chardet.eucjpprober',                                      
+                    'chardet.gb2312prober',                                     
+                    'chardet.euckrprober',                                      
+                    'chardet.cp949prober',                                      
+                    'chardet.big5prober',                                       
+                    'chardet.euctwprober',                                      
+                    'chardet.mbcsgroupprober',                                  
+                    'chardet.hebrewprober',                                     
+                    'chardet.sbcharsetprober',                                  
+                    'chardet.langbulgarianmodel',                               
+                    'chardet.langgreekmodel',                                   
+                    'chardet.langhebrewmodel',                                  
+                    'chardet.langrussianmodel',                                 
+                    'chardet.langthaimodel',                                    
+                    'chardet.langturkishmodel',                                 
+                    'chardet.sbcsgroupprober',                                  
+                    'chardet.universaldetector',                                
+                    'chardet.version', 'chardet',                               
+                    'aiohttp.client_reqrep',                                    
+                    'aiohttp.client_ws',                                        
+                    'aiohttp.client_proto', 'aiohttp.locks',                    
+                    'aiohttp.resolver', 'aiohttp.connector',                    
+                    '_compat_pickle', '_pickle', 'pickle',                      
+                    'aiohttp.cookiejar', 'aiohttp._frozenlist',                 
+                    'aiohttp.frozenlist', 'aiohttp.signals',                    
+                    'aiohttp.tracing', 'aiohttp.client',                        
+                    'aiohttp.payload_streamer', 'aiohttp',                      
+                    'discord.errors', 'discord.utils',                          
+                    'discord.mixins', 'discord.object',                         
+                    'discord.enums', 'discord.flags',                           
+                    'discord.permissions', 'discord.colour',                    
+                    'discord.asset', 'discord.invite',                          
+                    'discord.audit_logs', 'discord.iterators',                  
+                    'discord.context_managers',                                 
+                    'discord.mentions', 'discord.role',                         
+                    'discord.file', '_ctypes',                                  
+                    'ctypes._endian', 'ctypes', 'ctypes.util',                  
+                    'discord.opus', 'discord.backoff',                          
+                    'discord.partial_emoji',                                    
+                    'discord.activity', 'discord.gateway',                      
+                    'audioop', 'discord.oggparse',                              
+                    'discord.player', 'discord.voice_client',                   
+                    'discord.abc', 'discord.user',                              
+                    'discord.member', 'discord.emoji',                          
+                    'discord.channel', 'discord.widget',                        
+                    'discord.integrations', 'discord.guild',                    
+                    'discord.template', 'discord.http', 'gc',                   
+                    'discord.reaction', 'discord.calls',                        
+                    'discord.embeds', 'discord.sticker',                        
+                    'discord.message', 'discord.relationship',                  
+                    'discord.raw_models', 'discord.state',                      
+                    'discord.webhook', 'discord.team',                          
+                    'discord.appinfo', 'discord.client',                        
+                    'discord.shard', 'discord', 'discord.ext',                  
+                    'discord.ext.commands.errors',                              
+                    'discord.ext.commands.cooldowns',                           
+                    'discord.ext.commands.converter',                           
+                    'discord.ext.commands._types',                              
+                    'discord.ext.commands.cog',                                 
+                    'discord.ext.commands.core',                                
+                    'discord.ext.commands.view',                                
+                    'discord.ext.commands.context',                             
+                    'discord.ext.commands.help',                                
+                    'discord.ext.commands.bot',                                 
+                    'discord.ext.commands',                                     
+                    'discord.ext.tasks', 'bson.binary',                         
+                    'bson.code', 'bson.codec_options',                          
+                    'bson._helpers', 'bson.son', 'bson.dbref',                  
+                    'bson.decimal128', 'bson.errors',                           
+                    'bson.int64', 'bson.max_key',                               
+                    'bson.min_key', 'bson.tz_util',                             
+                    'bson.objectid', 'bson.regex',                              
+                    'bson.timestamp', 'bson._cbson', 'bson',                    
+                    'bson.raw_bson', 'hmac', 'pymongo.errors',                  
+                    'pymongo.auth_aws', 'stringprep',                           
+                    'pymongo.saslprep', 'pymongo.auth',                         
+                    'pymongo.server_type', 'pymongo.typings',                   
+                    'pymongo.hello', 'pymongo.helpers',                         
+                    'pymongo.monitoring',                                       
+                    'pymongo.compression_support',                              
+                    'pymongo.driver_info',                                      
+                    'pymongo.read_concern',                                     
+                    'pymongo.max_staleness_selectors',                          
+                    'pymongo.server_selectors',                                 
+                    'pymongo.read_preferences',                                 
+                    'pymongo.server_api',                                       
+                    'pymongo.write_concern', 'pymongo.common',                  
+                    'pymongo._cmessage', 'pymongo.message',                     
+                    'pymongo.collation', 'pymongo.aggregation',                 
+                    'pymongo.response', 'pymongo.cursor',                       
+                    'pymongo.client_session', 'pymongo.bulk',                   
+                    'pymongo.command_cursor',                                   
+                    'pymongo.change_stream',                                    
+                    'pymongo.operations', 'pymongo.results',                    
+                    'pymongo.collection', 'pymongo.database',                   
+                    'pymongo.periodic_executor',                                
+                    'pymongo.socket_checker',                                   
+                    'pymongo.network', 'pymongo.ssl_context',                   
+                    'pymongo.ssl_support', 'fcntl',                             
+                    'encodings.idna', 'pymongo.pool',                           
+                    'pymongo.client_options', 'dns.version',                    
+                    'dns', 'dns.exception', 'dns.flags',                        
+                    'dns.ipv4', 'dns.ipv6', 'dns.inet',                         
+                    'dns._immutable_ctx', 'dns.immutable',                      
+                    'dns.name', 'dns.wire', 'dns.enum',                         
+                    'dns.rdataclass', 'dns.rdatatype',                          
+                    'dns.ttl', 'dns.tokenizer', 'dns.rdata',                    
+                    'dns.edns', 'dns.opcode', 'dns.entropy',                    
+                    'dns.rcode', 'dns.set', 'dns.rdataset',                     
+                    'dns.tsig', 'dns.renderer', 'dns.rrset',                    
+                    'dns.rdtypes', 'dns.rdtypes.ANY',                           
+                    'dns.rdtypes.ANY.OPT',                                      
+                    'dns.rdtypes.ANY.TSIG', 'dns.message',                      
+                    'dns.serial', 'dns.node',                                   
+                    'dns.rdtypes.ANY.SOA',                                      
+                    'dns.rdtypes.ANY.ZONEMD',                                   
+                    'dns.transaction', 'dns.grange',                            
+                    'dns.zonefile', 'dns.zone', 'dns.xfr',                      
+                    'urllib3.packages', 'urllib3.packages.six',                 
+                    'urllib3.packages.six.moves',                               
+                    'urllib3.packages.six.moves.http_client',                   
+                    'urllib3.exceptions', 'urllib3._version',                   
+                    'urllib3.contrib',                                          
+                    'urllib3.contrib._appengine_environ',                       
+                    'urllib3.util.wait',                                        
+                    'urllib3.util.connection',                                  
+                    'urllib3.util.request',                                     
+                    'urllib3.util.response',                                    
+                    'urllib3.util.retry', 'urllib3.util.url',                   
+                    'urllib3.util.ssltransport',                                
+                    'urllib3.util.ssl_',                                        
+                    'urllib3.util.timeout', 'urllib3.util',                     
+                    'urllib3.util.proxy',                                       
+                    'urllib3._collections',                                     
+                    'urllib3.util.ssl_match_hostname',                          
+                    'urllib3.connection', '_queue', 'queue',                    
+                    'urllib3.fields', 'urllib3.filepost',                       
+                    'urllib3.packages.six.moves.urllib',                        
+                    'urllib3.packages.six.moves.urllib.parse',                  
+                    'urllib3.request', 'urllib3.response',                      
+                    'urllib3.util.queue',                                       
+                    'urllib3.connectionpool',                                   
+                    'urllib3.poolmanager', 'urllib3',                           
+                    'http.cookiejar', 'requests.compat',                        
+                    'requests.exceptions',                                      
+                    'charset_normalizer.assets',                                
+                    'charset_normalizer.constant',                              
+                    '_multibytecodec',                                          
+                    'charset_normalizer.utils',                                 
+                    'charset_normalizer.md',                                    
+                    'charset_normalizer.models',                                
+                    'charset_normalizer.cd',                                    
+                    'charset_normalizer.api',                                   
+                    'charset_normalizer.legacy',                                
+                    'charset_normalizer.version',                               
+                    'charset_normalizer',                                       
+                    'requests.__version__', 'zipfile',                          
+                    'importlib.resources', 'certifi.core',                      
+                    'certifi', 'requests.certs',                                
+                    'requests._internal_utils',                                 
+                    'requests.cookies', 'requests.structures',                  
+                    'requests.utils',                                           
+                    'requests.packages.urllib3.packages',                       
+                    'requests.packages.urllib3.packages.six', '                 
+                    requests.packages.urllib3.packages.six.move                 
+                    s', 'requests.packages.urllib3.packages.six                 
+                    .moves.http_client',                                        
+                    'requests.packages.urllib3.exceptions',                     
+                    'requests.packages.urllib3._version',                       
+                    'requests.packages.urllib3.contrib', 'reque                 
+                    sts.packages.urllib3.contrib._appengine_env                 
+                    iron',                                                      
+                    'requests.packages.urllib3.util.wait', 'req                 
+                    uests.packages.urllib3.util.connection',                    
+                    'requests.packages.urllib3.util.request',                   
+                    'requests.packages.urllib3.util.response',                  
+                    'requests.packages.urllib3.util.retry',                     
+                    'requests.packages.urllib3.util.url', 'requ                 
+                    ests.packages.urllib3.util.ssltransport',                   
+                    'requests.packages.urllib3.util.ssl_',                      
+                    'requests.packages.urllib3.util.timeout',                   
+                    'requests.packages.urllib3.util',                           
+                    'requests.packages.urllib3.util.proxy',                     
+                    'requests.packages.urllib3._collections', '                 
+                    requests.packages.urllib3.util.ssl_match_ho                 
+                    stname',                                                    
+                    'requests.packages.urllib3.connection',                     
+                    'requests.packages.urllib3.fields',                         
+                    'requests.packages.urllib3.filepost', 'requ                 
+                    ests.packages.urllib3.packages.six.moves.ur                 
+                    llib', 'requests.packages.urllib3.packages.                 
+                    six.moves.urllib.parse',                                    
+                    'requests.packages.urllib3.request',                        
+                    'requests.packages.urllib3.response',                       
+                    'requests.packages.urllib3.util.queue',                     
+                    'requests.packages.urllib3.connectionpool',                 
+                    'requests.packages.urllib3.poolmanager',                    
+                    'requests.packages.urllib3',                                
+                    'requests.packages.idna.package_data',                      
+                    'requests.packages.idna.idnadata',                          
+                    'requests.packages.idna.intranges',                         
+                    'requests.packages.idna.core',                              
+                    'requests.packages.idna',                                   
+                    'requests.packages.chardet',                                
+                    'requests.packages', 'requests.hooks',                      
+                    'requests.auth', 'requests.status_codes',                   
+                    'requests.models', 'requests.adapters',                     
+                    'requests.sessions', 'requests.api',                        
+                    'requests', 'httpx.__version__',                            
+                    'httpx._exceptions', 'rfc3986.compat',                      
+                    'rfc3986.exceptions',                                       
+                    'rfc3986.abnf_regexp', 'rfc3986.misc',                      
+                    'rfc3986.normalizers',                                      
+                    'rfc3986.validators', 'rfc3986._mixin',                     
+                    'rfc3986.uri', 'rfc3986.iri',                               
+                    'rfc3986.parseresult', 'rfc3986.api',                       
+                    'rfc3986', 'httpx._types',                                  
+                    'sniffio._version', 'sniffio._impl',                        
+                    'sniffio', 'httpx._utils',                                  
+                    'httpx._multipart', 'httpx._content',                       
+                    'httpx._compat', 'httpx._decoders',                         
+                    'httpx._status_codes', 'httpx._models',                     
+                    'httpx._auth', 'httpx._config',                             
+                    'httpx._transports',                                        
+                    'httpx._transports.base',                                   
+                    'httpx._transports.asgi',                                   
+                    'httpcore._models', 'httpcore._exceptions',                 
+                    'httpcore._ssl', 'anyio._core',                             
+                    'anyio._core._compat',                                      
+                    'anyio._core._eventloop',                                   
+                    'anyio._core._exceptions',                                  
+                    'anyio.abc._resources',                                     
+                    'anyio._core._typedattr',                                   
+                    'anyio.abc._tasks', 'anyio.abc._streams',                   
+                    'anyio.abc._sockets',                                       
+                    'anyio.abc._subprocesses',                                  
+                    'anyio.abc._testing', 'anyio.lowlevel',                     
+                    'anyio._core._tasks',                                       
+                    'anyio._core._testing',                                     
+                    'anyio._core._synchronization',                             
+                    'concurrent.futures.thread',                                
+                    'anyio.from_thread', 'anyio.abc',                           
+                    'anyio.to_thread', 'anyio._core._fileio',                   
+                    'anyio._core._resources',                                   
+                    'anyio._core._signals', 'anyio.streams',                    
+                    'anyio.streams.stapled',                                    
+                    'anyio.streams.tls',                                        
+                    'anyio._core._sockets',                                     
+                    'anyio.streams.memory',                                     
+                    'anyio._core._streams',                                     
+                    'anyio._core._subprocesses', 'anyio',                       
+                    'httpcore._synchronization',                                
+                    'httpcore._trace', 'httpcore.backends',                     
+                    'httpcore._utils',                                          
+                    'httpcore.backends.base',                                   
+                    'httpcore.backends.sync', 'h11._abnf',                      
+                    'h11._util', 'h11._headers', 'h11._events',                 
+                    'h11._state', 'h11._readers',                               
+                    'h11._receivebuffer', 'h11._writers',                       
+                    'h11._connection', 'h11._version', 'h11',                   
+                    'httpcore._sync.interfaces',                                
+                    'httpcore._sync.http11',                                    
+                    'httpcore._sync.connection',                                
+                    'httpcore._sync.connection_pool',                           
+                    'httpcore._sync.http_proxy', 'h2',                          
+                    'h2.config', 'hyperframe',                                  
+                    'hyperframe.exceptions',                                    
+                    'hyperframe.flags', 'hyperframe.frame',                     
+                    'hpack.exceptions', 'hpack.table',                          
+                    'hpack.huffman', 'hpack.huffman_constants',                 
+                    'hpack.huffman_table', 'hpack.struct',                      
+                    'hpack.hpack', 'hpack', 'h2.errors',                        
+                    'h2.exceptions', 'h2.settings',                             
+                    'h2.events', 'h2.frame_buffer',                             
+                    'h2.utilities', 'h2.windows', 'h2.stream',                  
+                    'h2.connection', 'httpcore._sync.http2',                    
+                    'httpcore._sync', 'httpcore._api',                          
+                    'httpcore.backends.auto',                                   
+                    'httpcore._compat',                                         
+                    'httpcore._async.interfaces',                               
+                    'httpcore._async.http11',                                   
+                    'httpcore._async.connection',                               
+                    'httpcore._async.connection_pool',                          
+                    'httpcore._async.http_proxy',                               
+                    'httpcore._async.http2', 'httpcore._async',                 
+                    'httpcore', 'httpx._transports.default',                    
+                    'httpx._transports.wsgi', 'httpx._client',                  
+                    'httpx._api', 'httpx._transports.mock',                     
+                    'httpx', 'dns.query', 'dns.reversename',                    
+                    'dns.resolver', 'pymongo.srv_resolver',                     
+                    'pymongo.uri_parser',                                       
+                    'pymongo.server_description',                               
+                    'pymongo.monitor',                                          
+                    'pymongo.topology_description',                             
+                    'pymongo.settings', 'pymongo.server',                       
+                    'pymongo.topology', 'pymongo.mongo_client',                 
+                    'pymongo',                                                  
+                    'dislash.interactions.message_components',                  
+                    'dislash.interactions.interaction', 'dislas                 
+                    h.interactions.app_command_interaction',                    
+                    'dislash.interactions.message_interaction',                 
+                    'dislash.interactions.application_command',                 
+                    'dislash.interactions',                                     
+                    'dislash.application_commands.errors',                      
+                    'dislash.application_commands._decohub',                    
+                    'dislash.application_commands.core',                        
+                    'dislash.application_commands.slash_core',                  
+                    'dislash.application_commands.context_menus                 
+                    _core',                                                     
+                    'dislash.application_commands.utils', 'disl                 
+                    ash.application_commands.slash_client',                     
+                    'dislash.application_commands', 'dislash',                  
+                    'dislash.slash_commands.errors',                            
+                    'dislash.slash_commands.slash_command',                     
+                    'dislash.slash_commands._decohub',                          
+                    'dislash.slash_commands.slash_core',                        
+                    'dislash.slash_commands.utils',                             
+                    'dislash.slash_commands.slash_client',                      
+                    'dislash.slash_commands', 'config',                         
+                    'pytz.exceptions', 'pytz.lazy',                             
+                    'pytz.tzinfo', 'pytz.tzfile', 'pytz',                       
+                    'word', 'dns.rdtypes.IN',                                   
+                    'dns.rdtypes.util', 'dns.rdtypes.IN.SRV',                   
+                    'dns.rdtypes.txtbase',                                      
+                    'dns.rdtypes.ANY.TXT', 'mongo', 'cache',                    
+                    'cmd', 'bdb', 'codeop', 'code', 'glob',                     
+                    'pprint', 'pdb', 'psutil._common',                          
+                    'psutil._compat', 'psutil._psposix',                        
+                    'psutil._psutil_linux',                                     
+                    'psutil._psutil_posix', 'resource',                         
+                    'psutil._pslinux', 'psutil',                                
+                    'multiprocessing.process',                                  
+                    'multiprocessing.reduction',                                
+                    'multiprocessing.context', '__mp_main__',                   
+                    'multiprocessing', '_tracemalloc',                          
+                    'tracemalloc', 'memory_profiler',                           
+                    'profilactic', 'messages', 'matplotlib',                    
+                    'numpy._globals', 'numpy.__config__',                       
+                    'numpy._distributor_init',                                  
+                    'numpy._version', 'numpy.version',                          
+                    'numpy.core._multiarray_umath',                             
+                    'numpy.compat._inspect',                                    
+                    'numpy.compat.py3k', 'numpy.compat',                        
+                    'numpy.core.overrides',                                     
+                    'numpy.core.multiarray',                                    
+                    'numpy.core.umath',                                         
+                    'numpy.core._string_helpers',                               
+                    'numpy.core._dtype',                                        
+                    'numpy.core._type_aliases',                                 
+                    'numpy.core.numerictypes',                                  
+                    'numpy.core._exceptions',                                   
+                    'numpy.core._methods',                                      
+                    'numpy.core.fromnumeric',                                   
+                    'numpy.core.shape_base',                                    
+                    'numpy.core._ufunc_config',                                 
+                    'numpy.core.arrayprint',                                    
+                    'numpy.core._asarray',                                      
+                    'numpy.core.numeric',                                       
+                    'numpy.core.defchararray',                                  
+                    'numpy.core.records', 'numpy.core.memmap',                  
+                    'numpy.core.function_base',                                 
+                    'numpy.core._machar',                                       
+                    'numpy.core.getlimits',                                     
+                    'numpy.core.einsumfunc',                                    
+                    'numpy.core._multiarray_tests',                             
+                    'numpy.core._add_newdocs',                                  
+                    'numpy.core._add_newdocs_scalars',                          
+                    'numpy.core._dtype_ctypes',                                 
+                    'numpy.core._internal',                                     
+                    'numpy._pytesttester', 'numpy.core',                        
+                    'numpy.lib.mixins', 'numpy.lib.ufunclike',                  
+                    'numpy.lib.type_check',                                     
+                    'numpy.lib.scimath',                                        
+                    'numpy.lib.stride_tricks',                                  
+                    'numpy.lib.twodim_base',                                    
+                    'numpy.linalg._umath_linalg',                               
+                    'numpy.linalg.linalg', 'numpy.linalg',                      
+                    'numpy.matrixlib.defmatrix',                                
+                    'numpy.matrixlib', 'numpy.lib.histograms',                  
+                    'numpy.lib.function_base',                                  
+                    'numpy.lib.index_tricks',                                   
+                    'numpy.lib.nanfunctions',                                   
+                    'numpy.lib.shape_base',                                     
+                    'numpy.lib.polynomial', 'numpy.lib.utils',                  
+                    'numpy.lib.arraysetops',                                    
+                    'numpy.lib.format',                                         
+                    'numpy.lib._datasource',                                    
+                    'numpy.lib._iotools', 'numpy.lib.npyio',                    
+                    'numpy.lib.arrayterator',                                   
+                    'numpy.lib.arraypad', 'numpy.lib._version',                 
+                    'numpy.lib',                                                
+                    'numpy.fft._pocketfft_internal',                            
+                    'numpy.fft._pocketfft', 'numpy.fft.helper',                 
+                    'numpy.fft', 'numpy.polynomial.polyutils',                  
+                    'numpy.polynomial._polybase',                               
+                    'numpy.polynomial.polynomial',                              
+                    'numpy.polynomial.chebyshev',                               
+                    'numpy.polynomial.legendre',                                
+                    'numpy.polynomial.hermite',                                 
+                    'numpy.polynomial.hermite_e',                               
+                    'numpy.polynomial.laguerre',                                
+                    'numpy.polynomial', '_cython_0_29_30',                      
+                    'numpy.random._common', 'secrets',                          
+                    'numpy.random.bit_generator',                               
+                    'numpy.random._bounded_integers',                           
+                    'numpy.random._mt19937',                                    
+                    'numpy.random.mtrand',                                      
+                    'numpy.random._philox',                                     
+                    'numpy.random._pcg64',                                      
+                    'numpy.random._sfc64',                                      
+                    'numpy.random._generator',                                  
+                    'numpy.random._pickle', 'numpy.random',                     
+                    'numpy.ctypeslib', 'numpy.ma.core',                         
+                    'numpy.ma.extras', 'numpy.ma', 'numpy',                     
+                    'packaging.__about__', 'packaging',                         
+                    'packaging._structures',                                    
+                    'packaging.version',                                        
+                    'matplotlib._api.deprecation',                              
+                    'matplotlib._api', 'matplotlib._version',                   
+                    'gzip', 'matplotlib._c_internal_utils',                     
+                    'matplotlib.cbook', 'matplotlib.docstring',                 
+                    'PIL._version', 'PIL', 'PIL.ImageMode',                     
+                    'PIL.TiffTags', 'PIL._binary', 'PIL._util',                 
+                    'PIL._imaging', 'PIL.Image',                                
+                    'PIL.ImageChops', 'PIL.ImageFile',                          
+                    'PIL.GimpGradientFile',                                     
+                    'PIL.GimpPaletteFile', 'PIL.ImageColor',                    
+                    'PIL.PaletteFile', 'PIL.ImagePalette',                      
+                    'PIL.ImageSequence', 'PIL.PngImagePlugin',                  
+                    'matplotlib._path', 'matplotlib.bezier',                    
+                    'matplotlib.path', 'matplotlib.transforms',                 
+                    'matplotlib.ticker', 'matplotlib.scale',                    
+                    'matplotlib._color_data',                                   
+                    'matplotlib.colors', 'pyparsing.util',                      
+                    'pyparsing.unicode',                                        
+                    'pyparsing.exceptions',                                     
+                    'pyparsing.actions', 'pyparsing.results',                   
+                    'pyparsing.core', 'pyparsing.helpers',                      
+                    'pyparsing.testing', 'pyparsing.common',                    
+                    'pyparsing',                                                
+                    'matplotlib.fontconfig_pattern',                            
+                    'matplotlib._enums', 'cycler',                              
+                    'matplotlib.rcsetup', 'matplotlib.ft2font',                 
+                    'dateutil._version', 'dateutil',                            
+                    'kiwisolver._cext', 'kiwisolver']                           
+[21:29:30] DEBUG    CACHEDIR=/home/user/.cache/matplotlib        __init__.py:275
+           DEBUG    Using fontManager instance from /home/u font_manager.py:1439
+                    ser/.cache/matplotlib/fontlist-v330.jso                     
+                    n                                                           
+[21:29:31] TRACE    load_ssl_context verify=True cert=None         _utils.py:261
+                    trust_env=True http2=False                                  
+           TRACE    load_verify_locations                          _utils.py:261
+                    cafile=/home/user/Рабочий стол/crash protect/p              
+                    ython-env/lib/python3.8/site-packages/certifi/              
+                    cacert.pem                                                  
+[12.06.2022 21:29:31] Библиотеки импортированы
+[12.06.2022 21:29:31] MongoDB подключена
+           DEBUG    Using selector: EpollSelector          selector_events.py:59
+[21:29:32] WARNING  PyNaCl is not installed, voice will NOT be     client.py:257
+                    supported                                                   
+[12.06.2022 21:29:32] Кога cmdengine загружена
+[12.06.2022 21:29:32] Кога rr загружена
+[12.06.2022 21:29:32] Кога antispam загружена
+[12.06.2022 21:29:32] Кога modercmd загружена
+[12.06.2022 21:29:32] Кога nickcor загружена
+[12.06.2022 21:29:32] Кога settings загружена
+[12.06.2022 21:29:32] Кога anticrash загружена
+[12.06.2022 21:29:32] Кога othercmds загружена
+[12.06.2022 21:29:32] Кога backup загружена
+[12.06.2022 21:29:32] Кога quarantine загружена
+[12.06.2022 21:29:32] Кога logs загружена
+[12.06.2022 21:29:32] Кога premium загружена
+[12.06.2022 21:29:32] Подключение шардов
+           DEBUG    on_ready has successfully been registered as  client.py:1018
+                    an event                                                    
+           DEBUG    on_shard_connect has successfully been        client.py:1018
+                    registered as an event                                      
+           DEBUG    on_socket_raw_receive has successfully been   client.py:1018
+                    registered as an event                                      
+           DEBUG    on_socket_raw_send has successfully been      client.py:1018
+                    registered as an event                                      
+           DEBUG    on_guild_join has successfully been           client.py:1018
+                    registered as an event                                      
+           DEBUG    on_guild_remove has successfully been         client.py:1018
+                    registered as an event                                      
+           DEBUG    on_command_completion has successfully been   client.py:1018
+                    registered as an event                                      
+Использовано памяти: 93.05 Мб.
+           TRACE    load_ssl_context verify=True cert=None         _utils.py:261
+                    trust_env=True http2=False                                  
+           TRACE    load_verify_locations                          _utils.py:261
+                    cafile=/home/user/Рабочий стол/crash protect/p              
+                    ython-env/lib/python3.8/site-packages/certifi/              
+                    cacert.pem                                                  
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-254468                
+                    81-696 "HTTP/1.1 200 OK"                                    
+           INFO     logging in using static token                  client.py:510
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-263751                
+                    83-702 "HTTP/1.1 200 OK"                                    
+[21:29:33] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-437209                
+                    24-980 "HTTP/1.1 200 OK"                                    
+           DEBUG    GET https://discord.com/api/v7/users/@me with    http.py:193
+                    None has returned 200                                       
+           DEBUG    GET https://discord.com/api/v7/users/@me has     http.py:209
+                    received {'id': '958783223398281216',                       
+                    'username': 'Monitoring.', 'avatar':                        
+                    '56195574339ed82054aef350d71107f9',                         
+                    'avatar_decoration': None, 'discriminator':                 
+                    '9779', 'public_flags': 0, 'flags': 0, 'bot':               
+                    True, 'banner': None, 'banner_color': None,                 
+                    'accent_color': None, 'bio': '', 'pronouns': '',            
+                    'locale': 'en-US', 'mfa_enabled': True, 'email':            
+                    None, 'verified': True}                                     
+           DEBUG    GET https://discord.com/api/v7/gateway with None http.py:193
+                    has returned 200                                            
+           DEBUG    GET https://discord.com/api/v7/gateway has       http.py:209
+                    received {'url': 'wss://gateway.discord.gg'}                
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-271358                
+                    10-987 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-285519                
+                    65-502 "HTTP/1.1 200 OK"                                    
+           DEBUG    Created websocket connected to wss://gateway. gateway.py:326
+                    discord.gg?encoding=json&v=6&compress=zlib-st               
+                    ream                                                        
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 10, 'd':                             
+                    {'heartbeat_interval': 41250, '_trace': ['["g               
+                    ateway-prd-main-zcl6",{"micros":0.0}]']}}                   
+           DEBUG    Dispatching event socket_response              client.py:358
+[21:29:34] DEBUG    Dispatching event socket_raw_send              client.py:358
+           DEBUG    Dispatching event socket_raw_send              client.py:358
+           INFO     Shard ID None has sent the IDENTIFY payload.  gateway.py:403
+<< b'x\x9c4\xc9A\n\xc20\x10\x05\xd0\xbb\xfcu"\xa9T\x17s\x95\xa6\x94i:h MK:*\x1arw\xdd\xb8{\xf0*\x14\x94\x1f)\x19\x1c\x7fl;\xa8s\x06\x0b\xa8\xe2.\\t\x16\xd6)f\x95\xf2\xe4\x04\xea\xbb\xf3\xe5\xf7\x93\x16\x0e\x02\x1a0x\xdcX\xe5\xc5o\xbb\x97\xc5\xae\x1c\xb3\xfd\x84t\xf50\xd5c\x8d\xa1l\x87\x07\xb9\x93k#\xc6\xd6\xbe\x00\x00\x00\xff\xff'
+>> {"op":1,"d":null}
+>> {"op":2,"d":{"token":"OTU4NzgzMjIzMzk4MjgxMjE2.GNWOzF.A3U8N9TrMGuNZAt6SLTxpdhyz1WqNXn-lr7KqI","properties":{"$os":"linux","$browser":"discord.py","$device":"discord.py","$referrer":"","$referring_domain":""},"compress":true,"large_threshold":250,"guild_subscriptions":true,"v":3,"intents":32511}}
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-634625                
+                    59-603 "HTTP/1.1 200 OK"                                    
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'\xaa\xc6e\xab!\xd8V\x90@-\x00\x00\x00\xff\xff'
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    'READY', 's': 1, 'op': 0, 'd': {'v': 6,                     
+                    'user_settings': {}, 'user': {'verified':                   
+                    True, 'username': 'Monitoring.',                            
+                    'mfa_enabled': True, 'id':                                  
+                    '958783223398281216', 'flags': 0, 'email':                  
+                    None, 'discriminator': '9779', 'bot': True,                 
+                    'avatar':                                                   
+                    '56195574339ed82054aef350d71107f9'},                        
+                    'session_type': 'normal', 'session_id':                     
+                    'b3354c62b757039f07b288edc5154292',                         
+                    'relationships': [], 'private_channels': [],                
+                    'presences': [], 'guilds': [{'unavailable':                 
+                    True, 'id': '952284685667536936'},                          
+                    {'unavailable': True, 'id':                                 
+                    '958226298742923284'}],                                     
+                    'guild_join_requests': [],                                  
+                    'geo_ordered_rtc_regions': ['russia',                       
+                    'st-pete', 'finland', 'stockholm',                          
+                    'bucharest'], 'application': {'id':                         
+                    '958783223398281216', 'flags': 827392},                     
+                    '_trace': ['["gateway-prd-main-zcl6",{"micros               
+                    ":77579,"calls":["discord-sessions-green-prd-               
+                    2-136",{"micros":76547,"calls":["start_sessio               
+                    n",{"micros":33988,"calls":["discord-api-7684               
+                    99f95b-s2984",{"micros":29646,"calls":["get_u               
+                    ser",{"micros":6985},"add_authorized_ip",{"mi               
+                    cros":1331},"get_guilds",{"micros":3409},"cor               
+                    os_wait",{"micros":1}]}]},"guilds_connect",{"               
+                    micros":1,"calls":[]},"presence_connect",{"mi               
+                    cros":5902,"calls":[]}]}]}]']}}                             
+           DEBUG    Dispatching event socket_response              client.py:358
+           INFO     Shard ID None has connected to Gateway: ["gat gateway.py:494
+                    eway-prd-main-zcl6",{"micros":77579,"calls":[               
+                    "discord-sessions-green-prd-2-136",{"micros":               
+                    76547,"calls":["start_session",{"micros":3398               
+                    8,"calls":["discord-api-768499f95b-s2984",{"m               
+                    icros":29646,"calls":["get_user",{"micros":69               
+                    85},"add_authorized_ip",{"micros":1331},"get_               
+                    guilds",{"micros":3409},"coros_wait",{"micros               
+                    ":1}]}]},"guilds_connect",{"micros":1,"calls"               
+                    :[]},"presence_connect",{"micros":5902,"calls               
+                    ":[]}]}]}] (Session ID:                                     
+                    b3354c62b757039f07b288edc5154292).                          
+           DEBUG    Dispatching event connect                      client.py:358
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    'GUILD_CREATE', 's': 2, 'op': 0, 'd':                       
+                    {'lazy': True, 'name': 'эмодзи для ботов',                  
+                    'emojis': [{'roles': [], 'require_colons':                  
+                    True, 'name': 'discord', 'managed': False,                  
+                    'id': '958956348773658626', 'available':                    
+                    True, 'animated': False}, {'roles': [],                     
+                    'require_colons': True, 'name': 'staff',                    
+                    'managed': False, 'id': '958956350610751488',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'announcement', 'managed': False, 'id':                     
+                    '958956352456261682', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'role',                     
+                    'managed': False, 'id': '958956354482085938',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'slowmode', 'managed': False, 'id':                         
+                    '958956356465987594', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'discord_2',                
+                    'managed': False, 'id': '958956357757845556',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'docs', 'managed': False, 'id':                             
+                    '958956360530272347', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'streaming',                
+                    'managed': False, 'id': '958956362354810922',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'slash', 'managed': False, 'id':                            
+                    '958956363986391060', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'check_yes',                
+                    'managed': False, 'id': '958956365714423819',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'online', 'managed': False, 'id':                           
+                    '958956367492816926', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'offline',                  
+                    'managed': False, 'id': '958956369384448040',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'idle', 'managed': False, 'id':                             
+                    '958956371053785119', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'nitro',                    
+                    'managed': False, 'id': '958956373264191559',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'download', 'managed': False, 'id':                         
+                    '958956375457816577', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'reply',                    
+                    'managed': False, 'id': '958956377739517952',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'check_no', 'managed': False, 'id':                         
+                    '958956379517911040', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'mention',                  
+                    'managed': False, 'id': '958956381002666046',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'dnd', 'managed': False, 'id':                              
+                    '958956383041126420', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'loading2',                 
+                    'managed': False, 'id': '958956384903372830',               
+                    'available': True, 'animated': True},                       
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'loading', 'managed': False, 'id':                          
+                    '958956754551590933', 'available': True,                    
+                    'animated': True}, {'roles': [],                            
+                    'require_colons': True, 'name': 'receiving',                
+                    'managed': False, 'id': '958956863850963004',               
+                    'available': True, 'animated': True},                       
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'ping_bad', 'managed': False, 'id':                         
+                    '958957615277301762', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name':                             
+                    'ping_medium', 'managed': False, 'id':                      
+                    '958957666749804594', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'ping_good',                
+                    'managed': False, 'id': '958957694235050034',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'online2', 'managed': False, 'id':                          
+                    '963099933550968892', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'idle2',                    
+                    'managed': False, 'id': '963100011271422023',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'offline2', 'managed': False, 'id':                         
+                    '963100038727356416', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'dnd2',                     
+                    'managed': False, 'id': '963100068259446866',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'streaming2', 'managed': False, 'id':                       
+                    '963100095568547860', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'yes_check',                
+                    'managed': False, 'id': '963100268692648106',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'no_check', 'managed': False, 'id':                         
+                    '963100302238679070', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'vps',                      
+                    'managed': False, 'id': '963100404961398834',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'wifi_warning', 'managed': False, 'id':                     
+                    '963100431683289128', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'warning2',                 
+                    'managed': False, 'id': '963100466160484392',               
+                    'available': True, 'animated': True},                       
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'arrow_up', 'managed': False, 'id':                         
+                    '963100505800855573', 'available': True,                    
+                    'animated': False}, {'roles': [],                           
+                    'require_colons': True, 'name': 'refresh',                  
+                    'managed': False, 'id': '963100564911169536',               
+                    'available': True, 'animated': False},                      
+                    {'roles': [], 'require_colons': True, 'name':               
+                    'close', 'managed': False, 'id':                            
+                    '977918248311992350', 'available': True,                    
+                    'animated': False}], 'nsfw': False,                         
+                    'premium_progress_bar_enabled': False,                      
+                    'members': [{'user': {'username':                           
+                    'Monitoring.', 'id': '958783223398281216',                  
+                    'discriminator': '9779', 'bot': True,                       
+                    'avatar':                                                   
+                    '56195574339ed82054aef350d71107f9'}, 'roles':               
+                    ['960442075214671882', '958788056272482347'],               
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-03-30T18:01:26.091000+00:00',                         
+                    'hoisted_role': '960442075214671882',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}], 'stickers': [],                           
+                    'vanity_url_code': None, 'stage_instances':                 
+                    [], 'system_channel_id': None,                              
+                    'rules_channel_id': None,                                   
+                    'premium_subscription_count': 0,                            
+                    'unavailable': False, 'region': 'deprecated',               
+                    'guild_hashes': {'version': 1, 'roles':                     
+                    {'omitted': False, 'hash': 'u9by5KyFa4c'},                  
+                    'metadata': {'omitted': False, 'hash':                      
+                    'ST7NSrGuySQ'}, 'channels': {'omitted':                     
+                    False, 'hash': '737kB5fcyi4'}},                             
+                    'premium_tier': 0, 'verification_level': 0,                 
+                    'joined_at':                                                
+                    '2022-03-30T18:01:26.091000+00:00',                         
+                    'nsfw_level': 0, 'presences': [],                           
+                    'application_id': None, 'afk_timeout': 300,                 
+                    'public_updates_channel_id': None,                          
+                    'max_video_channel_users': 25,                              
+                    'system_channel_flags': 0, 'features':                      
+                    ['EXPOSED_TO_ACTIVITIES_WTP_EXPERIMENT',                    
+                    'TEXT_IN_VOICE_ENABLED'],                                   
+                    'application_command_counts': {'3': 5, '2':                 
+                    1, '1': 24}, 'splash': None, 'max_members':                 
+                    500000, 'threads': [], 'owner_id':                          
+                    '951761374114086972', 'hub_type': None,                     
+                    'preferred_locale': 'en-US', 'roles':                       
+                    [{'unicode_emoji': None, 'tags': {},                        
+                    'position': 0, 'permissions_new':                           
+                    '966470780417', 'permissions': 103138817,                   
+                    'name': '@everyone', 'mentionable': False,                  
+                    'managed': False, 'id': '952284685667536936',               
+                    'icon': None, 'hoist': False, 'flags': 0,                   
+                    'color': 0}, {'unicode_emoji': None, 'tags':                
+                    {}, 'position': 5, 'permissions_new':                       
+                    '1071698660937', 'permissions': 104320585,                  
+                    'name': 'adm', 'mentionable': False,                        
+                    'managed': False, 'id': '958787864919945277',               
+                    'icon': None, 'hoist': False, 'flags': 0,                   
+                    'color': 0}, {'unicode_emoji': None, 'tags':                
+                    {'bot_id': '958783223398281216'}, 'position':               
+                    2, 'permissions_new': '8', 'permissions': 8,                
+                    'name': 'Monitoring.', 'mentionable': False,                
+                    'managed': True, 'id': '958788056272482347',                
+                    'icon': None, 'hoist': False, 'flags': 0,                   
+                    'color': 0}, {'unicode_emoji': None, 'tags':                
+                    {'bot_id': '559426966151757824'}, 'position':               
+                    1, 'permissions_new': '536895496',                          
+                    'permissions': 536895496, 'name': 'Not Quite                
+                    Nitro', 'mentionable': False, 'managed':                    
+                    True, 'id': '958952712790212621', 'icon':                   
+                    None, 'hoist': False, 'flags': 0, 'color':                  
+                    0}, {'unicode_emoji': None, 'tags': {},                     
+                    'position': 3, 'permissions_new':                           
+                    '966470780417', 'permissions': 103138817,                   
+                    'name': 'Боты', 'mentionable': False,                       
+                    'managed': False, 'id': '960442075214671882',               
+                    'icon': None, 'hoist': True, 'flags': 0,                    
+                    'color': 1}, {'unicode_emoji': None, 'tags':                
+                    {}, 'position': 4, 'permissions_new':                       
+                    '966470780417', 'permissions': 103138817,                   
+                    'name': 'Разработчики', 'mentionable': False,               
+                    'managed': False, 'id': '960442173357195264',               
+                    'icon': None, 'hoist': True, 'flags': 0,                    
+                    'color': 5972086}, {'unicode_emoji': None,                  
+                    'tags': {}, 'position': 1, 'permissions_new':               
+                    '966470780449', 'permissions': 103138849,                   
+                    'name': 'manage server perms', 'mentionable':               
+                    False, 'managed': False, 'id':                              
+                    '964797854625456138', 'icon': None, 'hoist':                
+                    False, 'flags': 0, 'color': 0},                             
+                    {'unicode_emoji': None, 'tags': {'bot_id':                  
+                    '942178218138533888'}, 'position': 1,                       
+                    'permissions_new': '0', 'permissions': 0,                   
+                    'name': '🔮・Simple Bot 2', 'mentionable':                  
+                    False, 'managed': True, 'id':                               
+                    '973646921342287944', 'icon': None, 'hoist':                
+                    False, 'flags': 0, 'color': 0},                             
+                    {'unicode_emoji': None, 'tags': {'bot_id':                  
+                    '740540209896095864'}, 'position': 1,                       
+                    'permissions_new': '8', 'permissions': 8,                   
+                    'name': 'HiProtect', 'mentionable': False,                  
+                    'managed': True, 'id': '977918818200481805',                
+                    'icon': None, 'hoist': False, 'flags': 0,                   
+                    'color': 0}, {'unicode_emoji': None, 'tags':                
+                    {'bot_id': '985436502626553878'}, 'position':               
+                    1, 'permissions_new': '8', 'permissions': 8,                
+                    'name': 'FSB Bot', 'mentionable': False,                    
+                    'managed': True, 'id': '985438208085065730',                
+                    'icon': None, 'hoist': False, 'flags': 0,                   
+                    'color': 0}], 'icon':                                       
+                    '736ce04b1a8f11eb18175397fc2b36f0',                         
+                    'mfa_level': 0, 'channels': [{'type': 0,                    
+                    'topic': None, 'rate_limit_per_user': 0,                    
+                    'position': 1, 'permission_overwrites': [],                 
+                    'name': 'список-эмодзи', 'last_message_id':                 
+                    '977919470003716146', 'id':                                 
+                    '960443061794635836', 'flags': 0},                          
+                    {'user_limit': 0, 'type': 2, 'rtc_region':                  
+                    None, 'rate_limit_per_user': 0, 'position':                 
+                    0, 'permission_overwrites': [{'type': 'role',               
+                    'id': '952284685667536936', 'deny_new': '0',                
+                    'deny': 0, 'allow_new': '1100864', 'allow':                 
+                    1100864}], 'name': 'войс с чатом',                          
+                    'last_message_id': '982403640943869962',                    
+                    'id': '960517272156373002', 'flags': 0,                     
+                    'bitrate': 64000}, {'type': 0, 'topic': None,               
+                    'rate_limit_per_user': 0, 'position': 2,                    
+                    'permission_overwrites': [{'type': 'role',                  
+                    'id': '952284685667536936', 'deny_new':                     
+                    '1024', 'deny': 1024, 'allow_new': '0',                     
+                    'allow': 0}], 'name': 'test123',                            
+                    'last_message_id': '977919870316445747',                    
+                    'id': '961612937758375947', 'flags': 0}],                   
+                    'id': '952284685667536936', 'voice_states':                 
+                    [], 'description': None, 'large': False,                    
+                    'guild_scheduled_events': [],                               
+                    'explicit_content_filter': 0,                               
+                    'afk_channel_id': None, 'discovery_splash':                 
+                    None, 'banner': None,                                       
+                    'default_message_notifications': 0,                         
+                    'embedded_activities': [], 'member_count':                  
+                    31}}                                                        
+           DEBUG    Dispatching event socket_response              client.py:358
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    'GUILD_CREATE', 's': 3, 'op': 0, 'd':                       
+                    {'lazy': True, 'name': 'тест краш протекта                  
+                    чтобы кумон не узнал', 'emojis': [], 'nsfw':                
+                    False, 'premium_progress_bar_enabled': False,               
+                    'members': [{'user': {'username':                           
+                    'Monitoring.', 'id': '958783223398281216',                  
+                    'discriminator': '9779', 'bot': True,                       
+                    'avatar':                                                   
+                    '56195574339ed82054aef350d71107f9'}, 'roles':               
+                    ['980812305111613493'], 'premium_since':                    
+                    None, 'pending': False, 'nick': 'HiProtect                  
+                    Mini', 'mute': False, 'joined_at':                          
+                    '2022-05-30T12:37:56.177000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}], 'stickers': [],                           
+                    'vanity_url_code': None, 'stage_instances':                 
+                    [], 'system_channel_id':                                    
+                    '958226298742923287', 'rules_channel_id':                   
+                    None, 'premium_subscription_count': 0,                      
+                    'unavailable': False, 'region': 'deprecated',               
+                    'guild_hashes': {'version': 1, 'roles':                     
+                    {'omitted': False, 'hash': '2DB+7wZadJE'},                  
+                    'metadata': {'omitted': False, 'hash':                      
+                    'UfQXWqmMqMw'}, 'channels': {'omitted':                     
+                    False, 'hash': '48qpkZLKYdI'}},                             
+                    'premium_tier': 0, 'verification_level': 0,                 
+                    'joined_at':                                                
+                    '2022-05-30T12:37:56.177000+00:00',                         
+                    'nsfw_level': 0, 'presences': [],                           
+                    'application_id': None, 'afk_timeout': 300,                 
+                    'public_updates_channel_id': None,                          
+                    'max_video_channel_users': 25,                              
+                    'system_channel_flags': 0, 'features': [],                  
+                    'application_command_counts': {}, 'splash':                 
+                    None, 'max_members': 500000, 'threads': [],                 
+                    'owner_id': '685837803413962806', 'hub_type':               
+                    None, 'preferred_locale': 'en-US', 'roles':                 
+                    [{'unicode_emoji': None, 'tags': {},                        
+                    'position': 0, 'permissions_new':                           
+                    '549759077888', 'permissions': 3264000,                     
+                    'name': '@everyone', 'mentionable': False,                  
+                    'managed': False, 'id': '958226298742923284',               
+                    'icon': None, 'hoist': False, 'flags': 0,                   
+                    'color': 0}, {'unicode_emoji': None, 'tags':                
+                    {}, 'position': 3, 'permissions_new':                       
+                    '1071698660937', 'permissions': 104320585,                  
+                    'name': 'new role', 'mentionable': False,                   
+                    'managed': False, 'id': '958414970457063454',               
+                    'icon': None, 'hoist': False, 'flags': 0,                   
+                    'color': 0}, {'unicode_emoji': None, 'tags':                
+                    {'bot_id': '958783223398281216'}, 'position':               
+                    2, 'permissions_new': '8', 'permissions': 8,                
+                    'name': 'Monitoring.', 'mentionable': False,                
+                    'managed': True, 'id': '980812305111613493',                
+                    'icon': None, 'hoist': False, 'flags': 0,                   
+                    'color': 0}, {'unicode_emoji': None, 'tags':                
+                    {}, 'position': 1, 'permissions_new':                       
+                    '549755813888', 'permissions': 0, 'name':                   
+                    'new role', 'mentionable': False, 'managed':                
+                    False, 'id': '980827504765976656', 'icon':                  
+                    None, 'hoist': False, 'flags': 0, 'color':                  
+                    0}], 'icon': None, 'mfa_level': 0,                          
+                    'channels': [{'type': 4, 'position': 0,                     
+                    'permission_overwrites': [], 'name': 'Text                  
+                    Channels', 'id': '958226298742923285',                      
+                    'flags': 0}, {'type': 4, 'position': 0,                     
+                    'permission_overwrites': [], 'name': 'Voice                 
+                    Channels', 'id': '958226298742923286',                      
+                    'flags': 0}, {'type': 0, 'topic': None,                     
+                    'rate_limit_per_user': 0, 'position': 0,                    
+                    'permission_overwrites': [], 'parent_id':                   
+                    '958226298742923285', 'name': 'general',                    
+                    'last_message_id': '980836293091151872',                    
+                    'id': '958226298742923287', 'flags': 0},                    
+                    {'user_limit': 0, 'type': 2, 'rtc_region':                  
+                    None, 'rate_limit_per_user': 0, 'position':                 
+                    0, 'permission_overwrites': [], 'parent_id':                
+                    '958226298742923286', 'name': 'General',                    
+                    'last_message_id': None, 'id':                              
+                    '958226298742923288', 'flags': 0, 'bitrate':                
+                    64000}, {'type': 0, 'topic': None,                          
+                    'rate_limit_per_user': 0, 'position': 1,                    
+                    'permission_overwrites': [], 'parent_id':                   
+                    '958226298742923285', 'name': 'heroku',                     
+                    'last_message_id': '969371370570014760',                    
+                    'id': '965810726776209468', 'flags': 0}],                   
+                    'id': '958226298742923284', 'voice_states':                 
+                    [], 'description': None, 'large': False,                    
+                    'guild_scheduled_events': [],                               
+                    'explicit_content_filter': 0,                               
+                    'afk_channel_id': None, 'discovery_splash':                 
+                    None, 'banner': None,                                       
+                    'default_message_notifications': 0,                         
+                    'embedded_activities': [], 'member_count':                  
+                    2}}                                                         
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'\x9cT\xcb\x8e\xd40\x10\xfc\x17\x9f\'(\xb1\xe3\x177$8r\xe1\x86`e9Ig\xc6\xe0q\x82\xed,\x82\xd5\xfc;\xed\xcc\x84e\xb3<$\xe4\x8b\xd3\xae*W?\x9c\x15C\xde\xbdy\xf5\xfa=Ya\xcd\x15\xb3\x19\xbb\'/\xc5\x81,\t\xa2I\x90\xb3\x0bG\xc4<\\\xae\xa1\x15\x00\xd1\x8d\x0e\x10\x9c\xe3\x02\xd7x\xb0g4L\xdeN\xc1\xe5)"\xe7\x05j\x9fGk \xd8\xce?b\x1d\xee\x88\xe6J*F)cZQ\xd5\xd0F x\xf4\xb6\\\x84.\x00\xd3\xf4\x9b\xfb\xc1\xa5>\xba\xb3\x0b\x16u\x0bWJ\x8d\xe8n\xca\x9b\xa4\xbd\xb7\xd9\x96#.\x1a\xcd\xb9lQ\x16\x06Ek\xdeZ\x18\x19\xaf\x07\xd94\xb5\x1c5\xc1\x1c\x12\xa4\xe4\xa6`\xf2\xb7\xb9\xf8\rS<c\xe1\x1f\xe3\xab\xbf\x8e1\xde\xf6\x82v\x92\xcb\x9a\xe9\xb1\x96\x1dU\n\x86\x9e7\xbc\xa5\x9a">\x82\xb7\x19\t\xe9\xe4ft\xfd\xe1\xee@\xe6\xe8\xd0\t\x98\xfedC\x00\xff3\n\tB\x0f\xb7\xcf\xe3\xe2\xfcP\xf6\x0fd\t\xe8\xdc\xf9R\x9e]u(U\xadP\\\x08\xc9\x99\xd0L\xa0\xf1\xbf\xc1\x15\xa5\x82j%\x8b5\x86Tr\xd9.2\x9f&\x17L\x84/\x0b\xa4\xbc9\x80\xc9Lq\x80\x08\x83\x89\xb9\xc7\xd3c\xc9\xa3L[\\\xb0\x08\xb6T#W3d(]q\xc1\xdb0\xac\xb1\xa9\xff|\x9a\xfc\xb9T\x7f\xc1$1\xb1LP\xd0\xce\xb3w\xfdZ\x8d2\x1d\xff\xec\xb0\xa2\x92iz\xf9\x8f1\x97\xd8\x0f}\xf8Hz\xeb}\xf9FZ\x19\x0f\xcc\xa6\xba\xf5/U\xc7\x08\x10V\x15Z5\xec\x99\x82\xe0\xad|\xaa\x90px\xb2\xb9\xf1w\xf0b_\xfd\xfeB;\xbbJ\n\xd5j=j\xdeU\t\x1b\xd0\xee\xd8T\x8bV<e\x1f!\x9b\xf2\\vH\xa1\x15\xbf \xd2\x0e\x83\xb1K>\xe1\x0b\xfa\x8e\xedq\xf3\x0e\xd70\xd6\x14\\\x91\xb9N\xd2\xdep[\xeb\x02@\x8bS2_\xad\xcb{\x85\xcb\x1d\xae"\xb1\xd2M?\xe1\xac\xf6\xcfP\xbf\xba^\xe1\xdb\x18\xff\x81\xc0uM\x9fr\xd6U~I?\x00\x00\x00\xff\xff'
+<< b'\xb4Z\xdbn\xe3\xc6\x19~\x15\xc3\xb7\xc5\x16s\x9e\xa1\xaf\x9a\xddUR\xa3\xa9wS+in\x16\x04%\x8dlv)R )+j`\xa0I.rQ\x14E\x81\xde\xb7OP\xa4A\x81l\x93`\xfb\n\xf23\xf4\x05\xfa\x08\xfdf(R\x92m\x89\xd6\x86\x06v-\x88\x07\xfd\xe7\xef?M\x057\x1f||\xfa\xe1\xf3\xf0\x19P\xa7\xdf\xabP\x87m\xa3N\x12\xfd~Q\xfb\xf5\nLn\xfe\xb4\xfcq\xf9v\xf9\xaf\xe5w\xcb7G\xf8\xf8\xe1\xe6\xcfG\xcb\x7f.\xdf\xde|\x89\xab\xdf\x1e;\xa0\xc8~\x17W\xc1\x94gI\x1db\xce\xdd\xe3\xdcq\x9ax\xbf\xde\xfa\xcd\x95\xf9\x1c8Eit\xe1\x80i\x1c%\xc5F0\x05Rqa\xb4\xe6J\x1a\xc5\x9c\xdf\xde\x89\xbb(\x8d\'p\xd7\xfa]\x17\x9d\x0f\xa5\x0fo\x1b\x8f[\xa8K\xa2\x80W\x92\nc:\xa6\x0e`\xcaf\xb0\xe2\xc4\xa6e\x1b\x13LH\x88O\x95a\x1d3\xe1\x9ek#.\x04\xf0\xdb\xc8\x80w\xad\x81"\xc9\xe6\x93l\xd4\xca\x00"W\x02Re :f`\xe5\x80!k\xe3\xc0\x81\x9d\x11R\xca\xae]p\x94\r\x8b\x16\xe2\x8aHN\x98f\\\xe8\xce\xfd?\xb7\x11\xb2\xf9E\x1b\x07\x0cN`(\tX\xd7\xeeW$Qq\xd9F\x1d\xb8\x8f\xff\x94(\xd21\xf5\xe1\xa5\x1d\xbe\x0e\x17\xb6\xd5\x02RS!\x1874\xe8\x98\x83,M\xe2\xb4\xcd\xff\x95\x16\x01\xf2\xb6\n:\x07\xc0l<~\x08}D\xbe\x00\x08\x10\xd1\xb5\x01\xe2Q+\xfah\n\xf7\xd7F\xd2\xceu\x8f\xe28\xcf\xda\xa8s\xa6\x04\r\xa8\x94]S\x1fe\xf34\xc9\xa2\xb6\xe4\xa7\xa5\x00\xf2Px`\xd7\xc1\x9f\xdbi\xb2h\xa3\x8e\xcc\x1bH\xaaQ\x05?J\xe8\xa5\xad\xfa\xf7\xd4\xd11t\xeez.\xeb\xba"y?}\x80\x1eaJ)":\x07\xfe\xb4\xcd\xf4\x86\x13A)\xfc\x8fu-\xbb\xf3;\xa0~[\xd6C=M8\xd7\x0c\x8c\xecg\xc0}\x7f\x07\xfa\xfb\xc9;\xcfG\x8b\x17\x90\x80\xf3n\xc9\xe7vh\xe3\xabV\x06\x90t\x8c$\x81\xe2\x84\xb4\xd4\x1d\x8720\x05\xedp\xd0\x12\xfbZQ\xc9\x10\x7f\x84j\xd5u\xf4y\x06&v\x14\xcf&-<(\x97|\x80\xfc\xdd\xd7^\x9e\x87\x8b,k\xd3B\x80\xc4+\x89$\x84w\xcdA\x95|wG\x01,\x1f\x04\xf0>\xe9\xbc\xc0\x98\xa0k+\xb8\xec\xb7\x8f:\xb0\x87\x00\x00P{0FXK\x10\xbck\xeeoc\x80\x1b\xcd\xb4+\xc1\xe9# `\x1bq\xf4;p<\x81P\xec\xbe\xf5[\x95\xbem,\x04\xa8\xf9\x8d\x14\xdat^}\xa2\xee\x0c}\x1a\xdc\xcf\x01\x83\xf4\xa8\xfc\\\xfd\xdd\xb5\x12\xd2\xec!\x0c\xa0\xf9@\xe9\xabt@t\xd7*\xb8\x9a\xee.\xbd=mAD\xa0\xa8\x1b\xfct\x1e\xfd\xf3x\x1c\x87\xf3(O\xf7%\x82\x8a\t\x8e\xc6\x9b3\x13P\xd6u\x07\xbc\xa2\xdf\xe2\x84B\xa1\xf5\'\xc2\x08\xde\x86A\x87f\xa2(\xcf\xb3y8\x9b\xee\xa7\x0f\xf85\x84\x18\xb4\xbf\xbak\x14\xca\xed8\xb7{Z\xc0\x8a\xbe\x12\xa8\x01\xd1\x00I\xdeu\x08\x0c\x93\xac\xd8\xdd\x82h\xd4\x9e\x86\t\xc3\xd1}\x04.\r=\x84:H\xa6\xc5x\xde\xfc\xd44\xb7\x13$\xdap\x9ag\x17\x90\xb5@\xe6\xcf\xd7\x93\xf8\xd5C\x13;\x19\xd8|5\x8b^\x8d\xf6w\x8e\xf2wOu;\x1e\xd0\xd7Z\x84\x1d\x08\x1a`\xa2%\xa3Bij\xfc\x1c\xcas``\x1d\xa6\xa1#?\x9fx\xb5\x16\xb7\x88S7O\xae\x16\x07S\x9b\xfa\x8a\xaf\x167\x8d\x81:\xab{\x93Yi\x9b\x1bnFnGa\xe4\xc6\x94Hz\xec\t\xe1O8\xe9SsB\xe8\tS?\'\x81\x03\xe5\x9f\x11rB\x9c1.\xb3\xb8(\xdd\xec\xdc\x8d\xb1N\xeegs\xbd\xcb\x18\xd9h\xdcP\x1af\x93\xc9,]\xcd\xcaC(\xce\x1b$\x9c\xa1-h\xf6\x1d\xb5\xb2\xfc\xaa\xe6\x95\x1b\xbb\x83\xef\xcaL\xf8v\x05\xcb\x97\x8bp\x96\'\xf0\xadQ#kQ\xc2\x93\xc28\xc5\xe7z\xd5P,\xc0\xe7\xa4^G\xf8\xcdF\xf5t>K|\x1e\xb8}\xbdQ\xe3l\xe0L:\xf5\\\x0e3\xb0\xe7E\xd9Z@\xac$\xaa\x96\x07.\xb3Z\xbc=\xf4>Y\xef\x1e.\xa3\xe2\xd2\xf1\xe2\x17F\x85\x7f\x8c6\xf6\xfd\xfc8\x9b\xc4e\xb9\xe1\x8e\xeeq\xfc\xd0,\x18,\xe4\xaf\x16\xefGb\xe8\xdcab\xcbh\x04\x8d\xecy\xe3\xbc\xaf\xcf\xce\xf3\x0ff\x8b\xf3\x8f\xdc\x1b\xeb\xf5\xcb\xce74\xd7\xaf\x9f\xca\xf1p\x11\x8b\xe3\xeb\xeb\xb5\xe0e\xec\xa2\x00\xa2V\x1b\xae\x95\x9d\x12{e\x13\x7f\xf9@Oq!\xb9\xf1\xf6\xadM\xd0\xc6\xdad\xc3\x06\xd1\xf85\xd8\x98\xd8l\x06"h\x03\xf0\xdal\x80\xe7\x00\x98P\xc3\xbdf\x9bD\x9f\x85W\xf1\xc8f\xcd=\x17\xc5n\xc2.\xef8\xc1\xda1\xc76*gy\x15j\xbdO_\xbe8\xef=\x0f\xfb/\xc2\xf7\x9e\xf5O?9\xed\x9f\xf6\xce\xc3\xdf\xf6_\x86\xb8\xd3\xfb\xcd\xe9\xaf{g}\xc8\xd3\xef}\xda\x0fO\xcf\xc2O^\x9c>\xeb\x85\xbd\xb3\xf7\x9e~\xd8{~k\x03\x14:\x1f\x8f\xd2Q\xe57\xde\x08\xfc\xf8\x04\x8c0o}\n\xae\x84[\xc3M\xfd\x14nC\x82\x06\x8dPv\x13\'wy\x89ri\xb4RV6Om\x1e\xae@\x08\xdd\t\xe5\x1a\x8d\xaa \xa8S\xb4\x0b\xb8\xcb\xd9`\xb5\xd2k\\yls\xb7\xe2J\xb2a\xe4\x03\xd5\xa6O>>?^\x03\x8c\xdb\xa8\xc5.\x88B\xbfF\xa8\xdf,\xa3z\xdd9\xcd\x8a\xb8Zj9+\xd8|\x12W+\xa60\xb5s\x1f\xf8Jh\xa2\xd1\xa8P7\'\xd9x\xc0-y9\xe5\xc6P\xdd\x80\xfe/\xe0\x06\xf9"\xab\x06_\xd5\x1c`+\x90v\xb4#w6\x81\xb83t,U\xccz,j\xdeY\x1b\xd7\xe5\x1d\xe7\xc9\xd5\xde\xf0\x81R\xca\xfb\xa4\x04.#\t\xa2\x18FO|\x8f\x98\x82\x03\xc5\x8d\\\'\xf7\xd1\xe40\x01\x01\xe7\xa8s\x91k\x83@\xb8\xde\xb3c\x01]\x1a\nw\xe5\xae-\xe9\xd9}\xd2\x9b\xdb\x12\x9bF\xd2[\x9b\xee}\x12\xdf\xde|o\xe7\xaf\xc7\x12X\xa2\x8da\n^J\x110R\xa3\xa6\xd8\x16\x98\xde\'0\xbc\x0c\x1d0\n\xe0\xdb\x8277\x1a\x05\x9ce\xe5\xd1G\xb3\xb8\xb4Gg\xf5T\xf3\xe1J\x80gk\xb4\x99\x01a\x94)F\x1f\xd3\xad\xf9O\x0f\xde\xe5_\xdc\xd2\xf1\xe6\x8f\x07\xb9\xf6}u\xc1=BVz\xb9##=HF\xd1\x81\x8c\x7f_~\xb3\xfc\xee\xe6\x0f\xf8\xebW\xac7_/\xdf,\xbf_\xbe9\\f\xaa9\x97\x1a\x95\x1e:\xc8\x83d\x96\xc0r \xfaA\x92\xdf\xeb\xc5k\xc9E\xb0Cr\x11\xac\xc7\xb2^\x94#\xe4L@\xf4\x91{\xb88Lh\xa1\x03\x8d~]1)P\xe1\xfa\x95\xe5#a\x98S\xaea\xd4\x80\x88\xe4\x90\xc2< \xa4\xc9m\r\x90F\xf2\xff\xfd\xed\xaf\xff\xf8\xefW?\x9c\xc7\x93ib\x8f\x9e"\xa0\xd9!a\xac\xb9\x12*`\x94\x0b\xa4)\x1d\x88\x1d\xd6\xee@p-\xd0+\x10F\x02\x03\x17\x03|\xa8\x87`\xd9\x1e\xf0\xfee\xfc2\xcfJ;,\x0f\x12\xd7uf\x06\xcd\x19\xbac|\x10\xf9xv\x867q%\t\xa0QI\xc9\x912~\x9a\xb8\xef\x9f?u\xd6=DX\xc7\x81[\xc1\xa3\x05\'\n=89T\xd8W\xf5\xf3\xa8\xb6\xd5\xd0\x121\xa0\x91\x19Sj\x07p_T3\x81\x1e\x0f\xd9\x80\xab\xb1\xfbewPl](o\x1c\xa0\xfa\xfc\xb8\xaa\xea\\=\x98M\xe3a\xd3\xc2\xb8\x83V\t\xba\xce2\x84\xcca\xd5\xbe\x92\x9d:\n3\x84\xf6<G\xb2Z\xd5\x93\xf5\t\x93/\x96\xffY\xbe\xc1\xdf\xb7\xcb\xef\x9fl\x1e7\x01O(PKT\xa5E\xe1[\xab\xc6\x03\x02 \x0b!\x1cU\x11\xf5\x0b\x9a5\xf0q\xa2(\xa2@qi\xf8\xe6\x816oww\x9a\xce\xf3[\xc9\xe2\x85B\xc9\xb1>\x80\xf5p\xc9\xc8n\xc9ju\xd5g,vW\x91#\x9b.6\x00\xc2}\xf5\xbf\x1c%I6\xafk?t3\xc6c\xb8\xbf\xeaN\x11\xfa\x0b\xd7k\x05.\xbf\x85\xc6\xfe}\xf3\xc5\x91\xfb\xf7\xf5\xf2\x1b\x7f4\xe7\xc7\xfb\xb5\x87\n\x84\x001H\x00\xcfRA\xe07\x0c\xb5\xf6P\xa2\xa0"\xa2~\xfdI\xc8v\x0b=@y\x11\xb9~\x1d\xef\x12\xaf\xcdw\xf5\t\xd6\xb1\xe6(a\xa2Q\x9e\xfb\xb2\xad?\xb2\xd6\x1c\xd9\xd0\x19\x08\x96\xd4\xcf\xd6w\xb9\x98\xd1HRJ\x08\xa9\xab\xfa\xb0R\x12<\x8e\xa1\x08\xd7p/w.Eo\xba\xd8\xab}\x1c_e\xf1\xd0\x86E\x195\xee?\xb2M\x83_k/\x89\xf2\x8b5&T\x1d|1\xbc\xb4\xa3\x99\x1bQ 6\xd3\xfa\x00\xa1\xfd\xccu{\xd02\xc2\xbb\xc4\xe5p\x1c\'\xe5J\xd7\xae}\xbd\xdb\xa1\xfa3/\xae\xff\t\xb7\xfb\xbe\x81{0o\x9e\xb2\xe3h\x96\xac\x15\x92fe\xd3\x84\x17\xab\x83\xa1\x03;\x1a\xb9\x0e|X\xc6W0j-O\xd5<\xd6\xb3\nN\xaf\xaf\xff\x0f\x00\x00\xff\xff'
+<< b'\xe4\x9b\xcbN\xc2@\x14\x86_\xa5akb\xe6~Z\x96^b\xbc\xb00\xf1J\xe2\x82\x04TBT \x1a\xdc\xb0\x107&\xbe\x0c.\x88\x89\x86\xf8\n\xd37\xf2L\x91\xb4\xd2\x96\xb64\x08\xea\xae\x90\xd2\x99\x9f93\xe7\xfc\x1f\x87\xb8\xae3\x9e\xdcu\xd6\xd3\x03\xf7\xc1\xedY\xfa\xcdTC\xee\x93\xa5?\xf0\xc2t\x9d\r\xf0\xad\x9e\xeec\xa4{q\xfe\xe2>\x9b\x9b\x1e\xbdcch\xe9\xa1\x1eX\xf8\xea\x15/\xfa\xfa\xbd\x10\xe8O\xfb\x93|\x0es\x03\x861n]\x8a\x91\xc9\x85\xc33\xa28?\x0b[\xa5\xfau\xbd\x90\x88\xe5\xa4\x07[X\x91CQ\xaaU\n\x10\x8f\xe5F\xe3.+\x86\x0b\xf7\xec\x9a\xcd\xbc\xd4X\x8em\xac\xad@\xa7\\\xa9\xeel\xa6\xc4r\x87\xe7\xfb\'\xc7\xad\xabR\xab\xd4I\x89\xe5\x84\xddj6\xca{\xbb\xa7\xd5\xed\x9cXnj\xa4\xfc\x16,\x97\x04\xd6\xf2a4\xcc\x11\x98Gl\xc2\x05\xe5\x98\x8bm\xef\x97\xbe\x05`4)\x1c\xccf\x04\xc0\xb6C\x15\xac\xe9\x84\xf2D\xe4\x83h\xa1\xfe\xf8\x9f\xa6\r\x19!\x1a~\xc8\x1a7\xc9fP)(~\x95\x04\x8b\x06\xa2\xb8\x90\xf33cKB\xd2\xc2\xe9g\x8e\xcb\x1a\r\xcbL\xe8Jc\xc6\xc3\xa1K\xf2\xad&\x8ac \x89\x00%\x1dPJf\x06\xbfg\xdf\xefO4X"\xa5\xc3\xf0\xcb\xd8\x83\xda\xfd\xad\xb5>~R\xdcf\x93\x13Fh\xd6\xd1\x8eL\r\x9b<\xdc\xa4\xef\x9a\xd5)L\x9fS\xb3\xd26uo\xbc\xe2\xafI_\xd4\xf0\xb8\xf5\xfe^\x14e\x87\x08\xdaD,\xe8\x89C\xa9\xa46\xb0XQPX\x88\x99L\x12\xaa|\xa1[\xf1BG\x13\x89~\x82=\'\x9f7\xdd\xfb\xa7]\xbd\xcbZ\xfb\xa6q\x17\xbdx\xe8\xac\x80r x\xd8\x12\x8a\xbb\x94\xf86\r\x0f\x04\x02L\x01(\x86VW\x055\x06lZDN\xfao6\x8du\xbb\x9f\x00\x00\x00\xff\xff'
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-693377                
+                    99-575 "HTTP/1.1 200 OK"                                    
+           DEBUG    Dispatching event socket_raw_send              client.py:358
+>> {"op":8,"d":{"guild_id":952284685667536936,"presences":false,"limit":0,"nonce":"44da26a8bebcf13451fc339949dbd62c","query":""}}
+           DEBUG    Dispatching event socket_raw_send              client.py:358
+>> {"op":8,"d":{"guild_id":958226298742923284,"presences":false,"limit":0,"nonce":"178a5348dad28307faed019f5aaab66d","query":""}}
+           DEBUG    GET https://discord.com/api/v7/oauth2/applicatio http.py:193
+                    ns/@me with None has returned 200                           
+           DEBUG    GET https://discord.com/api/v7/oauth2/applicatio http.py:209
+                    ns/@me has received {'id': '958783223398281216',            
+                    'name': 'Monitoring.', 'icon':                              
+                    '3ed75b2926dc0bb05df53fff72a95cd7',                         
+                    'description': 'Бот, отслеживающий статус других            
+                    ботов!', 'summary': '', 'type': None, 'hook':               
+                    True, 'bot_public': True,                                   
+                    'bot_require_code_grant': False,                            
+                    'install_params': {'scopes': ['bot',                        
+                    'applications.commands'], 'permissions': '8'},              
+                    'verify_key': 'd7a530d559ffc8226d3fd3db6f5ea0fd6            
+                    e90ba25d7eab02461d707cc54114646', 'owner':                  
+                    {'id': '685837803413962806', 'username':                    
+                    'самсунг ассистент', 'avatar':                              
+                    'a001fd8d26db74b6354b08bd68932816',                         
+                    'avatar_decoration': None, 'discriminator':                 
+                    '0205', 'public_flags': 256, 'flags': 256},                 
+                    'flags': 565248, 'team': None}                              
+[21:29:35] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-713110                
+                    37-82 "HTTP/1.1 200 OK"                                     
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    'GUILD_MEMBERS_CHUNK', 's': 4, 'op': 0, 'd':                
+                    {'nonce': '44da26a8bebcf13451fc339949dbd62c',               
+                    'members': [{'user': {'username': 'NQN',                    
+                    'public_flags': 65536, 'id':                                
+                    '559426966151757824', 'discriminator':                      
+                    '3454', 'bot': True, 'avatar':                              
+                    'c7c54eb85e591ced4c2f0864b7ea4e3e'}, 'roles':               
+                    ['960442075214671882', '958952712790212621'],               
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-03-31T04:55:43.313000+00:00',                         
+                    'hoisted_role': '960442075214671882',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username':                      
+                    'dispect', 'public_flags': 256, 'id':                       
+                    '569548189548675082', 'discriminator':                      
+                    '7196', 'avatar':                                           
+                    'ee7a061b1163017cafc57ead5efc259f'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-11T13:02:17.217000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'TheKw1zzly🐉', 'public_flags': 128, 'id':                  
+                    '659054791711916072', 'discriminator':                      
+                    '8724', 'avatar':                                           
+                    'bec99583dd89b00c056c95bafb0cec4f'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-22T05:45:12.656000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'Resident Feline', 'public_flags': 256, 'id':               
+                    '668380659722616833', 'discriminator':                      
+                    '0820', 'avatar':                                           
+                    'ee52d36d0e86ed1170e92ebbf7943bb7'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-13T18:36:21.434000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'D1r0Ul', 'public_flags': 64, 'id':                         
+                    '670970178347204618', 'discriminator':                      
+                    '4349', 'avatar':                                           
+                    '796c601ffb04a1600e4e526afd0c7d59'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-05-11T17:31:14.626472+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'самсунг ассистент', 'public_flags': 256,                   
+                    'id': '685837803413962806', 'discriminator':                
+                    '0205', 'avatar':                                           
+                    'a001fd8d26db74b6354b08bd68932816'}, 'roles':               
+                    ['960442173357195264', '958787864919945277'],               
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-03-12T19:40:05.400000+00:00',                         
+                    'hoisted_role': '960442173357195264',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username':                      
+                    'FOneKS', 'public_flags': 128, 'id':                        
+                    '694177855315116133', 'discriminator':                      
+                    '5442', 'avatar':                                           
+                    '2276d3a5eef748067741ce3eda23a86e'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-05-11T17:31:13.976611+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username': 'S𝖆𝖉                 
+                    P𝖗𝖊𝖘𝖘𝖊𝖓𝖙', 'public_flags': 256, 'id':                       
+                    '700956872383004734', 'discriminator':                      
+                    '6361', 'avatar':                                           
+                    'c291e8132d503a1dfe3dfd1d51ff862b'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-19T07:44:40.318000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username': '!                   
+                    Responce 200', 'public_flags': 256, 'id':                   
+                    '702978010197786624', 'discriminator':                      
+                    '7721', 'avatar':                                           
+                    '1859cf09b8ef9460fb641e30abc6df04'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-04T22:54:14.589000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username': '/h',                
+                    'public_flags': 64, 'id':                                   
+                    '737501414141591594', 'discriminator':                      
+                    '9140', 'avatar':                                           
+                    'd546bb4d834f77492d72b1450f65dc33'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-15T08:47:05.914000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'HiProtect', 'public_flags': 65536, 'id':                   
+                    '740540209896095864', 'discriminator':                      
+                    '2121', 'bot': True, 'avatar':                              
+                    '27a788e87fc5c4cf508038d8f78e0125'}, 'roles':               
+                    ['960442075214671882', '977918818200481805'],               
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-05-22T13:00:15.180248+00:00',                         
+                    'hoisted_role': '960442075214671882',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username':                      
+                    'Демьяша', 'public_flags': 128, 'id':                       
+                    '791865634052374538', 'discriminator':                      
+                    '7847', 'avatar':                                           
+                    '6d52e410b911cbd476680aa714a31565'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-06T04:03:26.319000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'youp1xxx', 'public_flags': 256, 'id':                      
+                    '819123244791365633', 'discriminator':                      
+                    '0808', 'avatar':                                           
+                    '3b4d88fa703326887b724275ecb73ef8'}, 'roles':               
+                    ['960442173357195264', '964797854625456138'],               
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-04T07:33:18.885000+00:00',                         
+                    'hoisted_role': '960442173357195264',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username':                      
+                    'BOGAJ•DS•', 'public_flags': 64, 'id':                      
+                    '852859494412189726', 'discriminator':                      
+                    '1322', 'avatar':                                           
+                    '68cb2eb454885a14f6ab895a35445d65'}, 'roles':               
+                    ['960442173357195264'], 'premium_since':                    
+                    None, 'pending': False, 'nick': None, 'mute':               
+                    False, 'joined_at':                                         
+                    '2022-04-30T14:28:13.894000+00:00',                         
+                    'hoisted_role': '960442173357195264',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username':                      
+                    'ЭП20-002', 'id': '857975739411333130',                     
+                    'discriminator': '0821', 'avatar':                          
+                    '2bcd558353254a87407cef221dfd9e6b'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-23T11:44:06.804000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'Глютеша', 'public_flags': 128, 'id':                       
+                    '881118530836238376', 'discriminator':                      
+                    '1158', 'avatar':                                           
+                    '23ca3d8b22877fa92ff1dd823403d878'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-04T13:28:05.791000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username': 'A4',                
+                    'id': '894595117544001567', 'discriminator':                
+                    '1140', 'avatar':                                           
+                    'df89d4ba22d4dacf4e1ed4c79f6f829d'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-10T17:03:38.338000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    '𝐍𝐢𝐤𝐢𝐭𝐚', 'public_flags': 64, 'id':                         
+                    '911635440677814282', 'discriminator':                      
+                    '0182', 'avatar':                                           
+                    '12086e4410e75b94def279d018c7c1a0'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-06-12T09:39:21.975979+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'bmtrxz', 'public_flags': 64, 'id':                         
+                    '932196369265995786', 'discriminator':                      
+                    '4190', 'avatar':                                           
+                    '84dfc6fecd74ce1c040e972e5b45d991'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-17T07:34:24.166000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'gipox', 'id': '936644119181279292',                        
+                    'discriminator': '9931', 'avatar':                          
+                    '6cf4b09de44f42298ea52de760c8e704'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-05-11T17:32:50.669647+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    '🔮・Simple Bot 2', 'public_flags': 0, 'id':                
+                    '942178218138533888', 'discriminator':                      
+                    '4882', 'bot': True, 'avatar':                              
+                    '3915eca025e1a12da8ec44bb2e3755d8'}, 'roles':               
+                    ['973646921342287944', '960442075214671882'],               
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-05-10T18:05:15.563976+00:00',                         
+                    'hoisted_role': '960442075214671882',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username':                      
+                    'ajajajaj', 'public_flags': 256, 'id':                      
+                    '942383251220234311', 'discriminator':                      
+                    '3551', 'avatar': None}, 'roles': [],                       
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-28T08:43:20.011000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'ScreenShare', 'id': '951761374114086972',                  
+                    'discriminator': '7071', 'avatar':                          
+                    '942f55f11af2deb166af2c0303c43f88'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-03-12T19:19:21.664000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'Monitoring.', 'id': '958783223398281216',                  
+                    'discriminator': '9779', 'bot': True,                       
+                    'avatar':                                                   
+                    '56195574339ed82054aef350d71107f9'}, 'roles':               
+                    ['960442075214671882', '958788056272482347'],               
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-03-30T18:01:26.091000+00:00',                         
+                    'hoisted_role': '960442075214671882',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username': 'Embed               
+                    Sender', 'public_flags': 0, 'id':                           
+                    '960902455330222162', 'discriminator':                      
+                    '7844', 'bot': True, 'avatar':                              
+                    '0d5ac0ef769a04e7f151c56a11669e4e'}, 'roles':               
+                    ['960442075214671882'], 'premium_since':                    
+                    None, 'pending': False, 'nick': None, 'mute':               
+                    False, 'joined_at':                                         
+                    '2022-04-05T17:28:52.378000+00:00',                         
+                    'hoisted_role': '960442075214671882',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username':                      
+                    'Testbotblyat', 'public_flags': 0, 'id':                    
+                    '962831767297990707', 'discriminator':                      
+                    '1390', 'bot': True, 'avatar': None},                       
+                    'roles': ['960442075214671882'],                            
+                    'premium_since': None, 'pending': False,                    
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-16T08:24:03.050000+00:00',                         
+                    'hoisted_role': '960442075214671882',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username':                      
+                    '_Pivko_', 'id': '969725462949531720',                      
+                    'discriminator': '1825', 'avatar':                          
+                    '9ac12d44881cb14c9a9fd31adf72dd82'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-04-30T16:10:27.129000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'Free_Utka', 'public_flags': 256, 'id':                     
+                    '971819987075465306', 'discriminator':                      
+                    '0430', 'avatar':                                           
+                    '7744c3f57f6752637860fc791c4a3b77'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-05-13T04:32:59.129554+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'ArtemBayBot', 'id': '972841533600567356',                  
+                    'discriminator': '7241', 'bot': True,                       
+                    'avatar':                                                   
+                    '55ea9d24dc1975d774082a952240b5a6'}, 'roles':               
+                    ['960442075214671882'], 'premium_since':                    
+                    None, 'pending': False, 'nick': None, 'mute':               
+                    False, 'joined_at':                                         
+                    '2022-05-23T11:43:18.684912+00:00',                         
+                    'hoisted_role': '960442075214671882',                       
+                    'flags': 0, 'deaf': False,                                  
+                    'communication_disabled_until': None,                       
+                    'avatar': None}, {'user': {'username': 'Ғ |                 
+                    𝙵𝙻𝚄𝙵𝙸', 'public_flags': 64, 'id':                           
+                    '973894581907243049', 'discriminator':                      
+                    '0365', 'avatar':                                           
+                    'c0606e98fb0ceaef19799cdd8194a844'}, 'roles':               
+                    [], 'premium_since': None, 'pending': False,                
+                    'nick': None, 'mute': False, 'joined_at':                   
+                    '2022-05-11T10:38:03.575432+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username': 'ФСБ                 
+                    Бот', 'id': '985436502626553878',                           
+                    'discriminator': '2903', 'bot': True,                       
+                    'avatar':                                                   
+                    'ff117020e8965c682c4b40782d6cf48b'}, 'roles':               
+                    ['985438208085065730'], 'premium_since':                    
+                    None, 'pending': False, 'nick': None, 'mute':               
+                    False, 'joined_at':                                         
+                    '2022-06-12T06:59:37.401496+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}], 'guild_id':                               
+                    '952284685667536936', 'chunk_index': 0,                     
+                    'chunk_count': 1}}                                          
+           DEBUG    Dispatching event socket_response              client.py:358
+           DEBUG    Processed a chunk for 31 members in guild ID    state.py:981
+                    952284685667536936.                                         
+<< b'\xec\\\xdd\x8e\\G\x11~\x95\xc5\xd7d\xa8\xea\xae\xee\xea\x9e\xbb\x98\xd8 \xac8!;\xbeD\xab\xfe\xc5\xc6\x8em9\x1bX[D\xc2\x10E\x04\xf1\x13\x08\x02\x12\xc9\x8a\x88r\x1b\xc9\x12BBJ\xf2\x0e\xb3<\x02O\xb0\x8f@\xf5\x99\xd9\xf5\xcc\xce\x99\xb1/8{|\x81Vg=\xfe\xd3\x9e\xf3U\x9d\xaa\xef\xab\x9f^Ui\xaf_y\xfd\xf2\x95\xb7\xf6\x0f\xbe\xfb\xfd\x1b\xd7\xaf-\xc4\x1a\xad\x8b\xb5\xbb\xf7:Mq\x89(\x07e\x83\x8b%\xa6*\xa1\xdf`M\x92\x8c<\xf9\x1c\xb3U\xe9\xd2s\xb5\xd3\xf5\x1f^\xbftF\xe1\x96\xd6i\x956\xbb\xb4OO\xefdSH-\x93l\x9f\x90J\x9c\x0c\x95\xe8L1\x1eS\xc9\x94Tm\x95\x93\xc8%P\xd1\xe5\x85\x06\x1d\xce\xf7H\x86\x19t\xc0\x19\xd0\xd4\x98)\xe9\x89F=\xd6\xa0\xc3\xb7{\xcd$\xff\xf1\xfe\xa2H\xbbn*e\xce\x0ce}[\x13i\xad)g%av7u\xdeP\x8c~9\xc3\xb3\xb0N)\x1c\xc0b\x14\xe2\xd0F]S\xa8\xc9\x88a\xb2)5)\xe3\xeb\xaau\x06\x00\x9d^A\x9c\xa1\x9e\x82\x9a"O\x14^\x98\x8c\xed\x07yv\xb3\\\xfb\x19>zt\xe7\xe1\xc9g\x1f}\xb8\x815*\xb7\xc4Z\xa8\x08\x18b\x8f\x8c\xe8\xd1\x02\xf7a-y\x8cV\xb1\x8e%y\xf1e\x9d\xb3\xf3\x11 \x81\xb1\xc9\x9b\x18j\x84T\x12\r\x8f\xb5R3\x10\xef6\xf2 \x13\xe1Q\xe3b\xfdVyG\x14\xe1\xdd\xc3\xbd\xabe\xb9\x04\xb3\xcd\xb1\xaduZ4Yk\x89uKx\xdd@\xfay\xb0\xc5\xdda\xdd\xb1\x8d\xca\xdaf(\xce\x96\x8c\xe2Y\xc5\xab\x12ceO:F\x1e\xde\xb1u\x1b\x86\xd1v\xaapB\x9a\xc6\x05\xfb5|\x007\xeel\xc6y:\x85\x98A\xf4\x12\x8a\x96!V@\x16]\x0f\xc4\xf2\x14~\x15b\xf66Y\xc0*\xfeKA^\x02($\xa0\xdbP3$\xce\xc6\x0f\x0c\xb1\xe9b\x07O5N\x91&V\xf41\xab\x11!>~<\x7f:\xff\xfa\xf8\xf1\xf1\xaf\xe6\xdf\xcc\xff\xb17\x7f*\x1f\x1f\xb7\x86JW,\xfd\xe6\xf8\x97\xbb<\xbc\xaf\x00\xb1\xe1\xe1\xaak\xb3\x9d\xc1\x1f\x84n\xd5\xec\xb2\xb292\xc5\xb6)\x1a\xc1I\xd6w^\xb7}\xb5\x9e\xc4z\xae\x1d\xdd3r2HbE5C?%1\x8d\x99PW\x8b\xd9\x9dX\xcf\xdd\xe6\xb0v\xbb\xfa\xc6\xddrm\x7fW\xac\xf7\x84\xccN(\x910\xa0\xa6\xaf\xfb\xc2\x8f\x91\xdb^5\x8eRl\xb3\x0e\xa6\x94\xca$\xf6d&!?\xba\x08[\xd3A"\xd2\x05\xbe\x1bz\xd2d3\xe2\x88\xef\xc6\xfe\xc9\x93\xbf| \xd7\x87{o\xca\xf7\xbf\xca\xf5\x1b\xb9\xfe\xb6\xbc\xda\xe7\x8f\xe5\xfad\xc7\x1b\xc2m\x15\xc0JFm{Y@\xac\xfbX\xa8\xd5\x16W\x8d\x90\x94\xc7\xe2P\xabl@\x07\xcc\xb5\xe8\\3f!\xc9\xd5Y\x15\x87\xcf\x01~\x06<%\x12\xdf\x17F\xe9\xc6\xcd\x01\xdf\xda\x93\x94{\xbf\xe9\x86=\xd5\xdd\xc2v\xac\x95\x97`\x84\x80^\xfc\xde\xda^\xc6\xcf\xac\xd6\xb0Fg|\xaa\xe0\xa3+U\xa4\x1e\xd4h\t\x8b\x86\x10\x93\xcd\x15hp\xac\x81fJM\r\xb5d \x82a\\\xac\xbfss{\xaee-\xe4\x1c\xa9\xfb\x12I\xb4X\xed\xda\xe8L!\xad\xd1\x99l\xc8\xc6HY\x12t\xe5\xb6\x90\x9cYE$\x03\xd5\x9a,\x8aoxW63pS\xe2\x16\xc3\xdb\xcd\x8d\n\xef\xea\xcc\xcav\xe5\xda3)\xb3\t\xb4\x08J\xdc\xa2\\\x15\x07v\xae8\x16M\x94(U\x91T\xa0]v\x95]\x01T\xe6\x05\x94\xeb\xe6\x9c\xcc \xc1^\x88}\x13Q0E3\x91\x9f\xa2\xc8\xbdD\xcau\xfeg\xe1?_\x1f\xff\xf6\xf8\x0f\xc7\xbf\x9e?\xdd\x91h\x1bV\xb6\x9d8\x02Fi&\xa3\xfbH(\xbb\xd3s\x18\x16F\xb2\xd9\xa8B\x08\xd1#\xa6\x98IR\x9d\x83\x10\x18)H\xbe\xb6f\xf8\xb8c[\xd5\x00t\x1bz\xd78r\xdcyx\xef\xdd\xfbxtt\xb4#\xba;\x11\xacJ+j\xeaU7\xb8\xfb\xd5\x14\xb8U\x94u\x0b=\xae\x06\x06\xad\x95u\x8e\xa3h[\xc5\xa6\xa4\xc8\xbaT\xf7\x02\\ss4p\xa84 )W\xeb)\xba\x89s\xe6\xe5\xe2\x9a\x97\xdf\xf8\xde\xab?\xf8\xcf/>\x7fm_\xbem\xcf\x10\xce(\xc9\xa6\xe4\x89$89\x91\xbd}r@h\xcd\x1a\xe3\xb4.E\x11\xb8dH\x1e; U\x1b\xa2\xf3&\xb4\x03dL\xb6}\xd1j\xed\xd9\x07\xb1Fk=\xd3T\xb9\xc6B\x9d\xdf\x915\xc6\xb0\xc6\xfc\xcb\xf9g\n^Y\xccX-\x81\x17\x1f5\xac\x85\xf1\x0b\xcdo5\xc0\xfeJ\xc3\x1a\xf3Q1e#\xfa\xcdh\xf1\xec\xe0$\xebp*U)\xe1\x9b\xd9\x17;<\xcbTz\x86\xd8X&\xd8I;%d\xd4\x084\xffx\xfe\xd5\xf1\xef\xbb\xc1\xa1\xdd\xd1^\xd2"\ni\xd4]\xebGX=\xf7:9\x9a\xb58\xa4t\n:\xbb\xd8\x86l\xb9\x06\xafj\xc5\x9c\xdb\xf2\x00\xc8\x1f\xb3\xbb\x08\x96)\x99V\x1cZh\x10\xefZ\x86\xbb\x08\xac_\xa53\xc7\x15\xf9\xeeE\x9d\xb2\xbc\xec\x00\x92\xf7\xb8\x17\xccs\x9c\xb2:\x9f)\x06\xa52\xe5\x90*\x15l\xe5y\xf6\xd5V\xa7|\x1e\x9eSB\xd3\xa8\x92:\xb5\x9bh=\xb2<:y\xf2\xd1\xef\xe4\xfa\\\xae/\x96\xbf~)\xd7\xa7\xdb\xc3\xb4oE\xf3\x06\xb8\xa8{\x87\xa4z\x0b\xee\x80n-Lc\x1b\xeb/\x12\xd9\xa1\xb0\x89\x9e\xb2\x84\n\xf6Y\xfeY\xe2\x84\x01\x06\x06\xdd\xb6b\x0c\xf8\xa9\xf6\xad.\xd9\xc6M\xd8\x8f\x08z|\xfb\xf0\xc1\xd1\xa3\x1d\x10k\x85\xbe\x1d\x81\xa4\xac\xf1\xde\xb0\xeb\x0b\x12$\xack\x15bG\xb9&[K\xcaL\xa9`\x92\x90X$\x89\x16#\xc91{\x8f\xc3\xfb5w\x1cD\x12\x1fM\xd0\x8e\\g\xff\xf1\xad\xfb\xf7\x8e\xceZ\xb2\xdaZ\xf1=\xa1\x80\xae\xb5\xd3\x16\xe7wnhO\xaf\xd7\x12\x9c\x95\xd0\x10\xc1g\xf1\xdaJJyW\x82Q\xb9\xb0\x85\xe4\n\x0f.\xed\xcfjY\xa2\xeeabmc\x92c\xc6\x89\xdeE\x91u\xff\x85S\xb87\x97Tz\xdcw!\xc2\xfa\x14\xa8\xf6(\x14;\x802\x05\x03\xaa\x1c\\IDQx\x9efc\xf29\xda\xdd\xb7\x83\xd2\xa3\xf7\x861\xd1b\xf5\xd74\x05*\x9a\xc2\xb3}\x89\x14h\xf8\xc9\xe2k\x87*j\xc7\xdc8!p\xd8\x9d\xf5B\x1a\xb1\xaf\xcbm\xcc\xea\x8b\xb1\xf8\x89\x03s;\xd7\x95]\x84r\xc0\x04pd\xbe\xb1\x9f\xda\x81\xb2\xfb\xed\xb8\xdbg\x03:=\x1b\xc8\x1b\x9a\x1dx-\xa0\x08\xd8\xd5\x98\x8a\x18\xaa\xc4\x91(!R>$\xd0\xa0\x13\xe9\xea\x86fq\xa7\r\t\xecr\xa0\xb5#3\xe6\xd1\x87\xd7\xff\x7f\xb8\xc4\x16\xcb\\i\xc3;{\xfb\xf2|\xf2W[c\xbc\x05\x0f\x8a\x8c\xc4wy&1U\xef\x1b\xe0h\xdb|\x0cd\x13\x12\x94\xca\xd6\x07\xa0\xc2\x15\r&c\x83\x90K\xeb\x0b=w>f\x18\x99cZ\xc6\x15\x99c\xd4\xa45&_*\xb3\xcc\xca;\x87\x82d\xbc\xf30l\x16\x80\x9f\x99E9-\xb1\x89\x950\xdcvvR\xaf"\xd2\x1ds\xec1\xcb\xb9\xd8~a\xc0\xa3m\xf1^\xb5\x82\xe2\x04\xcc\xf3[\xa5\x17\n\xfc\xc1\x9b\xb7~z\xfb\xde\xc1\xb3\xf9>\t\xf7\xad\xa0\xe7\xc9\x1b\xc1Z\xf5UKD\xfe\xacu\xad}HBdHH\x0f\xa6\x88\x94|\xf05k\x0c\xb9\xb2jJ~pr\xde"\x8e\x9d"L\x15OP\x8d\\\xaf\xbd*\t\xf5\xe0\xc6\xe1\xed\xb0\x8b\x9a\x88q\xd1\xb7E8Q\xf7\xd6\xe8\xfe\xe1\x00\xd2k\x1a\x88\x99(\xe9j\xb8Z\xf1\x10\xab\xdb\x01jU\xa4=&\n:\xf2\xd0\xe3/\xa6\x8d\xbf\x00u\x9c\xdd7\x98\x8d\xa11\x0b%\x0f\x0e\xcb\xdb\x97\xc3\xc3\xc5\xe2\xef\x12U\xe5\x08%h\xdbv\xc0U;b\xaf/l+\xda\xd6\x1c2\xa6\x04\x9f\x15\xe5\x84\xa2\xa2\xb3\xe0\rN\x85\xb6sH\x10M\xe8\x9b\xbe\x18\x9e\x85/+\x81]\xf1\xbb\x9d\xc7\x8f\xdb\x06b\xc6\x88\x1e\xff\xfe\xd3\xde\xcf\xf7N\x9e|\xf2O\xb9\xbe:y\xf2\xe9\xfb\xcb\xcf\xff\xda!\xffY\xb7\xca\x96\xb8?\x88)4t\xf3G\x1b\xae\xaf\xedZ\x84I`\xc1\x16\xef\xba\xb1:\xe1=\xd8\x12@\x92\xd8\x82\x9eB\xcb\xc3\x17!Wa\xaa]\x8b\xe1F\xdeY=\xe6X\xd2\xfc\x8b\xf9\xdf\xe7\x7f\xdc[\x1c\xdbq\xe6\xfc\x9bK\xf5=\x9dQ\x0fz\x8b\xf3\xd7\xda\x06\xea\x14\x14\xe7\xadI\xd6\xa9D\x91@\x94nn\xb5\x02\x17\xcf-Gn\xec\xcf\x0fV\xd8\xb2\x12n\xa6\x9a\'\x04H~\x9b\x04\xfd\xdf\xc2\xfe\xa3\xd3\xd1\xf3\xedK\xc7\xe9\xe6\xbbwo\x1f\xdc\x12\x1ay\xb4\xdc9i\xbf_\x8e~\xe3{\xef\xfd\x17\x00\x00\xff\xff'
+           DEBUG    GET https://discord.com/api/v7/applications/9587 http.py:193
+                    83223398281216/commands with None has returned              
+                    200                                                         
+           DEBUG    GET https://discord.com/api/v7/applications/9587 http.py:209
+                    83223398281216/commands has received []                     
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    'GUILD_MEMBERS_CHUNK', 's': 5, 'op': 0, 'd':                
+                    {'nonce': '178a5348dad28307faed019f5aaab66d',               
+                    'members': [{'user': {'username': 'самсунг                  
+                    ассистент', 'public_flags': 256, 'id':                      
+                    '685837803413962806', 'discriminator':                      
+                    '0205', 'avatar':                                           
+                    'a001fd8d26db74b6354b08bd68932816'}, 'roles':               
+                    ['958414970457063454'], 'premium_since':                    
+                    None, 'pending': False, 'nick': None, 'mute':               
+                    False, 'joined_at':                                         
+                    '2022-03-29T04:49:12.611000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}, {'user': {'username':                      
+                    'Monitoring.', 'id': '958783223398281216',                  
+                    'discriminator': '9779', 'bot': True,                       
+                    'avatar':                                                   
+                    '56195574339ed82054aef350d71107f9'}, 'roles':               
+                    ['980812305111613493'], 'premium_since':                    
+                    None, 'pending': False, 'nick': 'HiProtect                  
+                    Mini', 'mute': False, 'joined_at':                          
+                    '2022-05-30T12:37:56.177000+00:00',                         
+                    'hoisted_role': None, 'flags': 0, 'deaf':                   
+                    False, 'communication_disabled_until': None,                
+                    'avatar': None}], 'guild_id':                               
+                    '958226298742923284', 'chunk_index': 0,                     
+                    'chunk_count': 1}}                                          
+           DEBUG    Dispatching event socket_response              client.py:358
+           DEBUG    Processed a chunk for 2 members in guild ID     state.py:981
+                    958226298742923284.                                         
+<< b'"\xb0\xf4\xdb\x14\xfb\xd2oCs\x8bDSc\x13\x8b\x94\xc4\x14\xd0\x19\xc1\xe6i\x89\xa9)\x06\x86\x96i\xa6\x89\x89\x89Iff\xe0\x83]\xf1/\xfd\x1e\xe4K\xd60\xb7q\xd1\xa4\x0bbd\t\xaa\xa9L,\xc1\xabb\x07\xba\x8b=\xe0\x9d\xc1\x11\xb5\x93\x19%\xe3b\xd9\x86B(\xe3\x02\x00\x00\x00\xff\xff'
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-812352                
+                    58-1 "HTTP/1.1 200 OK"                                      
+[21:29:36] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-818846                
+                    77-332 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-999175                
+                    70-289 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-083705                
+                    00-277 "HTTP/1.1 200 OK"                                    
+           DEBUG    Dispatching event guild_available              client.py:358
+           DEBUG    Dispatching event guild_available              client.py:358
+           DEBUG    Dispatching event ready                        client.py:358
+[12.06.2022 21:29:36] Бот загружен за 15 секунд
+           DEBUG    Sending "{"op":3,"d":{"game":{"type":0,"name" gateway.py:624
+                    :"\u043d\u0430 \u0442\u0435\u0445 \u0440\u043               
+                    0\u0431\u043e\u0442\u0430\u0445","timestamps"               
+                    :{}},"afk":false,"since":1655044176960,"statu               
+                    s":"idle"}}" to change status                               
+           DEBUG    Dispatching event socket_raw_send              client.py:358
+>> {"op":3,"d":{"game":{"type":0,"name":"\u043d\u0430 \u0442\u0435\u0445 \u0440\u0430\u0431\u043e\u0442\u0430\u0445","timestamps":{}},"afk":false,"since":1655044176960,"status":"idle"}}
+[21:29:37] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-161713                
+                    78-22 "HTTP/1.1 200 OK"                                     
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-731866                
+                    11-508 "HTTP/1.1 200 OK"                                    
+[21:29:38] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-835926                
+                    62-640 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-447662                
+                    23-648 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-449821                
+                    72-680 "HTTP/1.1 200 OK"                                    
+[21:29:39] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-884056                
+                    68-670 "HTTP/1.1 200 OK"                                    
+Использовано памяти: 96.69 Мб.
+[21:30:15] DEBUG    Keeping shard ID None websocket alive with    gateway.py:148
+                    sequence 5.                                                 
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'"\xe6\x8a)\x00\x00\x00\x00\xff\xff'
+[21:30:19] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-254468                
+                    81-696 "HTTP/1.1 200 OK"                                    
+[21:30:20] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-263751                
+                    83-702 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-437209                
+                    24-980 "HTTP/1.1 200 OK"                                    
+[21:30:21] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-271358                
+                    10-987 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-285519                
+                    65-502 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-634625                
+                    59-603 "HTTP/1.1 200 OK"                                    
+[21:30:22] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-693377                
+                    99-575 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-713110                
+                    37-82 "HTTP/1.1 200 OK"                                     
+[21:30:23] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-812352                
+                    58-1 "HTTP/1.1 200 OK"                                      
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-818846                
+                    77-332 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-999175                
+                    70-289 "HTTP/1.1 200 OK"                                    
+[21:30:24] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-083705                
+                    00-277 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-161713                
+                    78-22 "HTTP/1.1 200 OK"                                     
+[21:30:25] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-731866                
+                    11-508 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-835926                
+                    62-640 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-447662                
+                    23-648 "HTTP/1.1 200 OK"                                    
+[21:30:26] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-449821                
+                    72-680 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-884056                
+                    68-670 "HTTP/1.1 200 OK"                                    
+Использовано памяти: 96.69 Мб.
+[21:30:56] DEBUG    Keeping shard ID None websocket alive with    gateway.py:148
+                    sequence 5.                                                 
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'"F\r\x00\x00\x00\xff\xff'
+Использовано памяти: 96.69 Мб.
+[21:31:07] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-254468                
+                    81-696 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-263751                
+                    83-702 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-437209                
+                    24-980 "HTTP/1.1 200 OK"                                    
+[21:31:08] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-271358                
+                    10-987 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-285519                
+                    65-502 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-634625                
+                    59-603 "HTTP/1.1 200 OK"                                    
+[21:31:09] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-693377                
+                    99-575 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-713110                
+                    37-82 "HTTP/1.1 200 OK"                                     
+[21:31:10] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-812352                
+                    58-1 "HTTP/1.1 200 OK"                                      
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-818846                
+                    77-332 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-999175                
+                    70-289 "HTTP/1.1 200 OK"                                    
+[21:31:11] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-083705                
+                    00-277 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-161713                
+                    78-22 "HTTP/1.1 200 OK"                                     
+[21:31:12] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-731866                
+                    11-508 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-835926                
+                    62-640 "HTTP/1.1 200 OK"                                    
+[21:31:13] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-447662                
+                    23-648 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-449821                
+                    72-680 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-884056                
+                    68-670 "HTTP/1.1 200 OK"                                    
+Использовано памяти: 96.69 Мб.
+[21:31:37] DEBUG    Keeping shard ID None websocket alive with    gateway.py:148
+                    sequence 5.                                                 
+[21:31:38] DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'"F\r\x00\x00\x00\xff\xff'
+[21:31:54] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-254468                
+                    81-696 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-263751                
+                    83-702 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-437209                
+                    24-980 "HTTP/1.1 200 OK"                                    
+[21:31:55] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-271358                
+                    10-987 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-285519                
+                    65-502 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-634625                
+                    59-603 "HTTP/1.1 200 OK"                                    
+[21:31:56] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-693377                
+                    99-575 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-713110                
+                    37-82 "HTTP/1.1 200 OK"                                     
+[21:31:57] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-812352                
+                    58-1 "HTTP/1.1 200 OK"                                      
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-818846                
+                    77-332 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-999175                
+                    70-289 "HTTP/1.1 200 OK"                                    
+[21:31:58] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-083705                
+                    00-277 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-161713                
+                    78-22 "HTTP/1.1 200 OK"                                     
+[21:31:59] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-731866                
+                    11-508 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-835926                
+                    62-640 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-447662                
+                    23-648 "HTTP/1.1 200 OK"                                    
+[21:32:00] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-449821                
+                    72-680 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-884056                
+                    68-670 "HTTP/1.1 200 OK"                                    
+Использовано памяти: 96.69 Мб.
+[21:32:19] DEBUG    Keeping shard ID None websocket alive with    gateway.py:148
+                    sequence 5.                                                 
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'"F\r\x00\x00\x00\xff\xff'
+Использовано памяти: 96.69 Мб.
+[21:32:41] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-254468                
+                    81-696 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-263751                
+                    83-702 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-437209                
+                    24-980 "HTTP/1.1 200 OK"                                    
+[21:32:42] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-271358                
+                    10-987 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-285519                
+                    65-502 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-634625                
+                    59-603 "HTTP/1.1 200 OK"                                    
+[21:32:43] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-693377                
+                    99-575 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-713110                
+                    37-82 "HTTP/1.1 200 OK"                                     
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-812352                
+                    58-1 "HTTP/1.1 200 OK"                                      
+[21:32:44] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-818846                
+                    77-332 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-999175                
+                    70-289 "HTTP/1.1 200 OK"                                    
+[21:32:45] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-083705                
+                    00-277 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-161713                
+                    78-22 "HTTP/1.1 200 OK"                                     
+[21:32:46] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-731866                
+                    11-508 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-835926                
+                    62-640 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-447662                
+                    23-648 "HTTP/1.1 200 OK"                                    
+[21:32:47] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-449821                
+                    72-680 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-884056                
+                    68-670 "HTTP/1.1 200 OK"                                    
+[21:33:00] DEBUG    Keeping shard ID None websocket alive with    gateway.py:148
+                    sequence 5.                                                 
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'"F\r\x00\x00\x00\xff\xff'
+Использовано памяти: 96.69 Мб.
+[21:33:28] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-254468                
+                    81-696 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-263751                
+                    83-702 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-437209                
+                    24-980 "HTTP/1.1 200 OK"                                    
+[21:33:29] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-271358                
+                    10-987 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-285519                
+                    65-502 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-634625                
+                    59-603 "HTTP/1.1 200 OK"                                    
+[21:33:30] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-693377                
+                    99-575 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-713110                
+                    37-82 "HTTP/1.1 200 OK"                                     
+[21:33:31] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-812352                
+                    58-1 "HTTP/1.1 200 OK"                                      
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-818846                
+                    77-332 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-999175                
+                    70-289 "HTTP/1.1 200 OK"                                    
+[21:33:32] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-083705                
+                    00-277 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-161713                
+                    78-22 "HTTP/1.1 200 OK"                                     
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-731866                
+                    11-508 "HTTP/1.1 200 OK"                                    
+Использовано памяти: 96.69 Мб.
+[21:33:33] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-835926                
+                    62-640 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-447662                
+                    23-648 "HTTP/1.1 200 OK"                                    
+[21:33:34] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-449821                
+                    72-680 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-884056                
+                    68-670 "HTTP/1.1 200 OK"                                    
+[21:33:41] DEBUG    Keeping shard ID None websocket alive with    gateway.py:148
+                    sequence 5.                                                 
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'"F\r\x00\x00\x00\xff\xff'
+Использовано памяти: 96.69 Мб.
+[21:34:15] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-254468                
+                    81-696 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-263751                
+                    83-702 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-437209                
+                    24-980 "HTTP/1.1 200 OK"                                    
+[21:34:16] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-271358                
+                    10-987 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-285519                
+                    65-502 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-634625                
+                    59-603 "HTTP/1.1 200 OK"                                    
+[21:34:17] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-693377                
+                    99-575 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-713110                
+                    37-82 "HTTP/1.1 200 OK"                                     
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-812352                
+                    58-1 "HTTP/1.1 200 OK"                                      
+[21:34:18] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-818846                
+                    77-332 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-999175                
+                    70-289 "HTTP/1.1 200 OK"                                    
+[21:34:19] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-083705                
+                    00-277 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-161713                
+                    78-22 "HTTP/1.1 200 OK"                                     
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-731866                
+                    11-508 "HTTP/1.1 200 OK"                                    
+[21:34:20] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-835926                
+                    62-640 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-447662                
+                    23-648 "HTTP/1.1 200 OK"                                    
+[21:34:21] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-449821                
+                    72-680 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-884056                
+                    68-670 "HTTP/1.1 200 OK"                                    
+[21:34:22] DEBUG    Keeping shard ID None websocket alive with    gateway.py:148
+                    sequence 5.                                                 
+[21:34:23] DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'"F\r\x00\x00\x00\xff\xff'
+Использовано памяти: 96.69 Мб.
+[21:35:02] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-254468                
+                    81-696 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-263751                
+                    83-702 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-437209                
+                    24-980 "HTTP/1.1 200 OK"                                    
+[21:35:03] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-271358                
+                    10-987 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-285519                
+                    65-502 "HTTP/1.1 200 OK"                                    
+Использовано памяти: 96.69 Мб.
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-634625                
+                    59-603 "HTTP/1.1 200 OK"                                    
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-693377                
+                    99-575 "HTTP/1.1 200 OK"                                    
+[21:35:04] DEBUG    Keeping shard ID None websocket alive with    gateway.py:148
+                    sequence 5.                                                 
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-713110                
+                    37-82 "HTTP/1.1 200 OK"                                     
+           DEBUG    Dispatching event socket_raw_receive           client.py:358
+           DEBUG    For Shard ID None: WebSocket Event: {'t':     gateway.py:432
+                    None, 's': None, 'op': 11, 'd': None}                       
+           DEBUG    Dispatching event socket_response              client.py:358
+<< b'"F\r\x00\x00\x00\xff\xff'
+[21:35:05] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-812352                
+                    58-1 "HTTP/1.1 200 OK"                                      
+           DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-818846                
+                    77-332 "HTTP/1.1 200 OK"                                    
+[21:35:06] DEBUG    HTTP Request: GET https://api.qiwi.com/partn _client.py:1002
+                    er/bill/v1/bills/WhiteApfel-PyQiwiP2P-999175                
+                    70-289 "HTTP/1.1 200 OK"                                    
+

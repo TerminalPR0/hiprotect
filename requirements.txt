@@ -1,0 +1,12 @@
+discord.py
+requests
+dislash.py
+pymongo
+dnspython
+pillow
+typing
+memory_profiler
+matplotlib
+pytz
+pyqiwip2p
+pycbrf

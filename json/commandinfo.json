@@ -1,0 +1,267 @@
+{
+    "addroles":{
+        "description": "Выдать роль всем участникам сервера",
+        "args": ["<Роль, которую нужно выдать>"],
+        "examples": ["addroles @Участник"]
+    },
+    "help":{
+        "description": "Выведет информацию о всех командна или о одной определённой",
+        "args": ["[Команда]"],
+        "examples": ["help", "help antiraid"]
+    },
+    "exec":{
+        "description": "Вам это точно не понадобится. Мы вас уверяем.",
+        "args": [],
+        "examples": []
+    },
+    "info":{
+        "description": "Посмотреть информацию о боте",
+        "args": [],
+        "examples": ["info"]
+    },
+    "ping":{
+        "description": "Посмотреть задержку бота",
+        "args": [],
+        "examples": ["ping"]
+    },
+    "server":{
+        "description": "Посмотреть информацию о сервере",
+        "args": [],
+        "examples": ["server"]
+    },
+    "invite":{
+        "description": "Посмотреть ссылки на приглашение бота и прочие ресурсы",
+        "args": [],
+        "examples": ["invite"]
+    },
+    "user":{
+        "description": "Посмотреть информацию об указанном пользователе. Если он не указан, отобразится информация о вас",
+        "args": ["[Пользователь]"],
+        "examples": ["user", "user @Example#9999"]
+    },
+    "ban":{
+        "description": "Изгнать участника с сервера и заблокировать его (забанить)",
+        "args": ["<Пользователь>", "[Длительность]", "[Причина]"],
+        "examples": ["ban @Example#9999", "ban @Example#9999 Рейдер", "ban @Example#9999 1h30m Оскорбинка", "ban @Example#9999 1d"]
+    },
+    "bans":{
+        "description": "Посмотреть список забаненных пользователей",
+        "args": [],
+        "examples": ["bans"]
+    },
+    "correct":{
+        "description": "Исправить никнеймы указанным пользователям",
+        "args": ["<Участник1 Участник2 ...>"],
+        "examples": ["correct @Example#9999", "correct @Example#9999 @Example#0001 @Example#1337"]
+    },
+    "correct_all":{
+        "description": "Исправить никнеймы всем участникам сервера",
+        "args": [],
+        "examples": ["correct-all"]
+    },
+    "kick":{
+        "description": "Выгнать участника с сервера с возможностью перезахода",
+        "args": ["<Участник>", "[Причина]"],
+        "examples": ["kick @Example#9999", "kick @Example#9999 Неадекват"]
+    },
+    "lock_bot":{
+        "description": "Забрать все права у бота",
+        "args": ["<Бот>", "[Длительность]", "[Причина]"],
+        "examples": ["lock-bot @Bot#1234", "lock-bot @Bot#1234 2h", "lock-bot @Bot#1234 Тест", "lock-bot @Bot#1234 1h30m Мешает работе"]
+    },
+    "mute":{
+        "description": "Запретить определённому участнику сервера что-либо писать в чат и разговаривать (замьютить)",
+        "args": ["<Участник>", "[Длительность]", "[Причина]"],
+        "examples": ["mute @Example#9999", "mute @Example#9999 Флуд", "mute @Example#9999 1h30m Флуд", "mute @Example#9999 1d"]
+    },
+    "mutes":{
+        "description": "Посмотреть список замьюченных пользователей",
+        "args": [],
+        "examples": ["mutes"]
+    },
+    "purge":{
+        "description": "Очистить определённое количество сообщений в текущем канале (100 по умолчанию). Максимум – 1000",
+        "args": ["[Пользователь]", "[Количество сообщений]"],
+        "examples": ["purge", "purge 50", "purge @Example#9999", "purge @Example#9999 500"]
+    },
+    "quarantine":{
+        "description": "Управление карантином",
+        "args": ["add <Участник> [Длительность] [Причина]", "remove <Участник>", "users", "user <ID наказанного>", "role <Роль>"],
+        "examples": ["quarantine add @Example#1234 6h Попытка краша сервера", "quarantine remove @Example#1234", "quarantine users", "quarantine user 752367350657056851", "quarantine role @Карантин"]
+    },
+    "remroles":{
+        "description": "Забрать роль у всех участников сервера",
+        "args": ["<Роль, которую нужно забрать>"],
+        "examples": ["remroles @Админка"]
+    },
+    "unban":{
+        "description": "Разбанить пользователя",
+        "args": ["<Пользователь>"],
+        "examples": ["unban @Example#9999"]
+    },
+    "unlock_bot":{
+        "description": "Разблокировать бота",
+        "args": ["<Бот>"],
+        "examples": ["unlock_bot @Bot#1234"]
+    },
+    "unmute":{
+        "description": "Размьютить участника (снова разрешить ему говорить)",
+        "args": ["<Участник>"],
+        "examples": ["unmute @Example#9999"]
+    },
+    "unwarn":{
+        "description": "Снять предупреждения у участника",
+        "args": ["<Участник>", "[Количество предупреждений для снятия]"],
+        "examples": ["unwarn @Example#9999", "unwarn @Example#9999 2"]
+    },
+    "warn":{
+        "description": "Выдать предупреждение участнику",
+        "args": ["<Участник>", "[Причина]"],
+        "examples": ["warn @Example#9999", "warn @Example#9999 Оскорбления"]
+    },
+    "warns":{
+        "description": "Посмотреть свои или чужие предупреждения",
+        "args": ["[Участник]"],
+        "examples": ["warns", "warns @Example#9999"]
+    },
+    "echo":{
+        "description": "Сказать что-нибудь от лица бота",
+        "args": ["<Сообщение>"],
+        "examples": ["echo Завтра будет раздача печенек!"]
+    },
+    "lock":{
+        "description": "Запретить всем отправлять сообщения в указанном или текущем канале",
+        "args": ["[Канал]"],
+        "examples": ["lock", "lock #правила-сервера"]
+    },
+    "mass_ban":{
+        "description": "Забанить сразу несколько пользователей (максимум 50 за раз)",
+        "args": ["<Пользователь1> <Пользователь2> ...", "[Длительность]", "[Причина]"],
+        "examples": ["massban @Example#8888 @Example#9999 @Example#0001", "massban @Example#8888 @Example#9999 @Example#0001 1h", "massban @Example#8888 @Example#9999 @Example#0001 Краш сервера", "massban @Example#8888 @Example#9999 @Example#0001 2h50m Дурачки"]
+    },
+    "unlock":{
+        "description": "Разрешить всем отправлять сообщения в указанном или текущем канале",
+        "args": ["[Канал]"],
+        "examples": ["unlock", "unlock #чатик"]
+    },
+    "8ball":{
+        "description": "Задать вопрос магическому шару",
+        "args": ["<Вопрос>"],
+        "examples": ["8ball Мы сможем добить 5000 серверов к концу года?"]
+    },
+    "alertcrash":{
+        "description": "Снять всех администраторов и модераторов со своих должностей",
+        "args": [],
+        "examples": ["alertcrash"]
+    },
+    "delspamchannels":{
+        "description": "Удалить каналы с одинаковым названием",
+        "args": ["<Канал> ИЛИ <Название канала>"],
+        "examples": ["delspamchannels #crash-by-bot", "delspamchannels Admin Loh"]
+    },
+    "delspamroles":{
+        "description": "Удалить роли с одинаковым названием",
+        "args": ["<Роль> ИЛИ <Название роли>"],
+        "examples": ["delspamroles @Crash", "delspamroles Admin Loh"]
+    },
+    "antiraid":{
+        "description": "Ограничить количество заходов на сервер за определённый промежуток времени",
+        "args": ["<Максимальное количество заходов>", "<Промежуток времени>"],
+        "examples": ["antiraid 5 15s"]
+    },
+    "antiflood":{
+        "description": "Настройка анти-флуда (напишите команду без параметров для настройки)",
+        "args": [],
+        "examples": []
+    },
+    "antiinvite":{
+        "description": "Настройка анти-приглашений (напишите команду без параметров для настройки)",
+        "args": [],
+        "examples": []
+    },
+    "muterole":{
+        "description": "Указать роль, которая будет выдаваться при мьюте. Отсутствие параметра покажет текущую роль мьюта",
+        "args": ["[Роль]"],
+        "examples": ["muterole", "muterole @Замьючен"]
+    },
+    "nickcorrector":{
+        "description": "Включить или выключить исправитель никнеймов. Отсутствие параметра покажет текущее состояние",
+        "args": ["[on ИЛИ off]"],
+        "examples": ["nickcorrector", "nickcorrector on", "nickcorrector off"]
+    },
+    "addsingle":{
+        "description": "Интуитивно понятное добавление роли за реакции",
+        "args": [],
+        "examples": ["addsingle"]
+    },
+    "delsingle":{
+        "description": "Интуитивно понятное удаление роли за реакции",
+        "args": [],
+        "examples": ["delsingle"]
+    },
+    "perms":{
+        "description": "Ограничить бота по каналам и ролям. Для обозначения всех команд следует указать `*`",
+        "args": ["ar <Название команды> <РазрешённаяРоль1 РазрешённаяРоль2 ...>", "dr <Название команды> <ЗапрещённаяРоль1 ЗапрещённаяРоль2 ...>", "ac <Название команды> <РазрешённыйКанал1 РазрешённыйКанал2 ...>", "dc <Название команды> <ЗапрещённыйКанал1 ЗапрещённыйКанал2 ...>", "show <Название команды>"],
+        "examples": ["perms ar backup @Бэкапы @Админ", "perms dr 8ball @Не веселимся", "perms ac * #команды-ботов", "perms dc user #общение", "perms show kick"]
+    },
+    "prefix":{
+        "description": "Установка нового префикса для бота",
+        "args": ["<Новый префикс ИЛИ сброс>"],
+        "examples": ["prefix !", "prefix reset", "prefix сброс"]
+    },
+    "role_protect":{
+        "description": "Включить или выключить защиту общедоступных ролей от изменения прав. Отсутствие параметра покажет текущее состояние",
+        "args": ["[on ИЛИ off]"],
+        "examples": ["role-protect", "role-protect on", "role-protect off"]
+    },
+    "np":{
+        "description": "Установить наказание за краш сервера для бота или пользователя",
+        "args": ["<bot ИЛИ user>", "<Наказание>", "[Длительность]"],
+        "examples": ["np bot lock 5h", "np user ban 5d12h", "np user ban 1mo"]
+    },
+    "nuker":{
+        "description": "Установить наказание за приглашение краш-бота",
+        "args": ["<kick ИЛИ ban>", "[Длительность]"],
+        "examples": ["nuker kick", "nuker ban", "nuker ban 1y"]
+    },
+    "warn_actions":{
+        "description": "Установить наказания за предупреждения",
+        "args": ["set <Количество предпр-й> <Наказание> [Длительность]", "reset"],
+        "examples": ["warn-actions set 2 mute 10m", "warn-actions set 6 ban", "warn-actions reset"]
+    },
+    "wl":{
+        "description": "Игнорировать пользователя или бота на указанные действия",
+        "args": ["add <Пользователь>", "remove <Пользователь>", "list"],
+        "examples": ["wl add @Example#9999", "wl remove @Bot#1234", "wl list"]
+    },
+    "avatar":{
+        "description": "Посмотреть свой или чужой аватар",
+        "args": ["[Пользователь]"],
+        "examples": ["avatar", "avatar @Example#9999"]
+    },
+    "backup":{
+        "description": "Управление резервными копиями сервера",
+        "args": ["create", "load", "protect"],
+        "examples": ["backup create", "backup load", "backup protect"]
+    },
+    "discrim":{
+        "description": "Поиск участников на сервере с указанными четырьмя цифрами после никнейма (с вашим, если не указано)",
+        "args": ["[Дискриминатор]"],
+        "examples": ["discrim", "discrim #0001", "discrim 1234"]
+    },
+    "reset_all":{
+        "description": "Безвозвратно сбросить ВСЕ настройки бота",
+        "args": [],
+        "examples": ["reset-all"]
+    },
+    "notify_dm":{
+        "description": "Включить или выключить оповещения о наказаниях в личку",
+        "args": ["[on ИЛИ off]"],
+        "examples": ["notify-dm", "notify-dm on", "notify-dm off"]
+    },
+    "score":{
+        "description": "Настроить баллы за действия, подразумевающие краш или засорение сервера.",
+        "args": ["[название, см. score help]", "max (баллы для включения анти-краша)"],
+        "examples": ["score", "score channel_delete 6", "score ban 4", "score max 20", "score help"]
+    }
+}
