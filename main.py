@@ -84,8 +84,11 @@ async def on_ready():
 @bot.event
 async def on_shard_connect(shard_id):
     print(f'{time4logs()} Шард {shard_id} готов к работе ;)')
-    if int(shard_id) == len(bot.shards) - 1:
-    	Other.uptime = int(time.time())
+    if Other.shard_count <= 2:
+        Other.uptime = int(time.time())
+    else:
+        if int(shard_id) == len(bot.shards) - 1:
+            Other.uptime = int(time.time())
 '''
 @bot.event
 async def on_socket_raw_receive(msg):
@@ -129,7 +132,7 @@ async def on_guild_join(guild):
                 #)
             )
             await first(guild).send(embed=embed, components=[row])
-            if bot.user.id == 740540209896095864:
+            if bot.user.id == bot.user.id:
                 lb = discord.Embed(title="🤖 | Бот был добавлен на сервер")
                 lb.color = Color.success
                 lb.description = f'''
@@ -140,7 +143,7 @@ async def on_guild_join(guild):
 **ID:** {guild.id}
                 '''
                 lb.set_thumbnail(url=guild.icon_url)
-                await bot.get_channel(973591928010588261).send(embed=lb)
+                await bot.get_channel(973591928010588261).send(embed=lb) #change channel id
     else:
         embed = discord.Embed(color = Color.danger)
         embed.description = "Владелец этого сервера – не очень хороший человек, поэтому этот сервер я отказываюсь обслуживать. Поддержка также не будет осуществляться."
@@ -151,7 +154,7 @@ async def on_guild_join(guild):
                 try: 
                     await first(g).send(embed=embed)
                     await g.leave()
-                    if bot.user.id == 740540209896095864:
+                    if bot.user.id == bot.user.id:
                         lb = discord.Embed(title="😡 | Сервер в черном списке!")
                         lb.color = Color.danger
                         lb.description = f'''
@@ -161,12 +164,12 @@ async def on_guild_join(guild):
 **ID:** {g.id}
                         '''
                         lb.set_thumbnail(url=guild.icon_url)
-                        await bot.get_channel(973591928010588261).send(embed=lb)
+                        await bot.get_channel(973591928010588261).send(embed=lb)#change channel id
                 except: pass
 
 @bot.event
 async def on_guild_remove(guild):
-    if bot.user.id == 740540209896095864:
+    if bot.user.id == bot.user.id:
         lb = discord.Embed(title="😢 | К сожалению, этому серверу бот не понравился")
         lb.color = Color.danger
         lb.description = f'''
@@ -176,7 +179,7 @@ async def on_guild_remove(guild):
 **ID:** {guild.id}
         '''
         lb.set_thumbnail(url=guild.icon_url)
-        await bot.get_channel(973591928010588261).send(embed=lb)
+        await bot.get_channel(973591928010588261).send(embed=lb)#change channel id
 
 async def checkbans():
     while True:
