@@ -401,17 +401,28 @@ class Cmd(commands.Cog):
         else:
             uptime2 = int(time.time()) - Other.uptime
         embed = discord.Embed(title="ℹ | Информация", description="Привет! Я – анти-краш бот, который защищает сервера от краша.", color=Color.primary)
-        embed.add_field(
-            name="Система",
-            inline=False,
-            value=f'''
-🛰 Средняя задержка бота: **{int(self.bot.latency * 1000)} мс**
-⏳ Аптайм: **{word.hms(uptime2)}**
-🖥 Шардов: **{len(self.bot.shards)}**
-🆔 ID шарда этого сервера: **{ctx.guild.shard_id}**
-💬 Команд выполнено: **{cache.botstats_data[self.bot.user.id]["commands_completed"]}**
-            '''
-        )
+        if Other.shard_count <= 2:
+            embed.add_field(
+                name="Система",
+                inline=False,
+                value=f'''
+    🛰 Средняя задержка бота: **{int(self.bot.latency * 1000)} мс**
+    ⏳ Аптайм: **{word.hms(uptime2)}**
+    💬 Команд выполнено: **{cache.botstats_data[self.bot.user.id]["commands_completed"]}**
+                '''
+            )
+        else:
+            embed.add_field(
+                name="Система",
+                inline=False,
+                value=f'''
+    🛰 Средняя задержка бота: **{int(self.bot.latency * 1000)} мс**
+    ⏳ Аптайм: **{word.hms(uptime2)}**
+    🖥 Шардов: **{len(self.bot.shards)}**
+    🆔 ID шарда этого сервера: **{ctx.guild.shard_id}**
+    💬 Команд выполнено: **{cache.botstats_data[self.bot.user.id]["commands_completed"]}**
+                '''
+            )
         embed.add_field(
             name="Серверы",
             inline=False,
@@ -456,17 +467,18 @@ class Cmd(commands.Cog):
     @commands.cooldown(1, 3, commands.BucketType.guild)
     async def ping(self, ctx):
         embed = discord.Embed(title="🏓 | Понг!", description=f'Средняя задержка: **{int(self.bot.latency * 1000)} мс**', color=Color.primary)
-        embed.add_field(inline=False, name="По шардам:", value=f'''
-Шард **0**: **{int(self.bot.get_shard(0).latency) * 1000}мс**
-Шард **1**: **None мс**
-Шард **2**: **None мс**
-Шард **3**: **None мс**
-Шард **4**: **None мс**
-Шард **5**: **None мс**
-Шард **6**: **None мс**
-Шард **7**: **None мс**
-        ''')
-        embed.set_footer(text=f'ID вашего шарда: {ctx.guild.shard_id}')
+        if Other.shard_count => 2:
+            embed.add_field(inline=False, name="По шардам:", value=f'''
+    Шард **0**: **{int(self.bot.get_shard(0).latency) * 1000}мс**
+    Шард **1**: **None мс**
+    Шард **2**: **None мс**
+    Шард **3**: **None мс**
+    Шард **4**: **None мс**
+    Шард **5**: **None мс**
+    Шард **6**: **None мс**
+    Шард **7**: **None мс**
+            ''')
+            embed.set_footer(text=f'ID вашего шарда: {ctx.guild.shard_id}')
         await ctx.send(embed=embed)
 
     @commands.Cog.listener()
