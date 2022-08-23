@@ -276,7 +276,7 @@ def clean_code(content):
 @bot.command(name="exec", aliases = ["eval", "e"])
 async def _eval(ctx, *, code):
     await ctx.message.delete()
-    if ctx.author.id in [356737308898099201, 685837803413962806, 750245767142441000]:
+    if ctx.author.id in []:
         pending_embed = discord.Embed(title = 'Добрый день!', description = 'Код выполняется, подождите...', color = discord.Colour.from_rgb(255, 255, 0))
         message = await ctx.send(embed = pending_embed)
         success_embed = discord.Embed(title = 'Выполнение кода - успех', color = discord.Colour.from_rgb(0, 255, 0))
