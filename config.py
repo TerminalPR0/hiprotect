@@ -11,18 +11,18 @@ class Color:
 
 class Auth:
     discord_auth = {
-        "debug":"NzQwNTQwMjA5ODk2MDk1ODY0.GZ8c5r.qajFFH9xJbe2_Y9VFd94lY54Fh9PWox_jbfOFI", #discord bot debug token
-        "release": "NzQwNTQwMjA5ODk2MDk1ODY0.GZ8c5r.qajFFH9xJbe2_Y9VFd94lY54Fh9PWox_jbfOFI" #you can enter token from debug
+        "debug": os.getenv("discord_token"), #discord bot debug token
+        "release": os.getenv("discord_token") #you can enter token from debug
     }
     mongo_auth = {
-        "url":"", #mongo db url like "cluster1.free.mongodb.com"
-        "username":"", #mongo db username. exmaple "ArtemBay"
+        "url": os.getenv("mongo_cluster_url"), #mongo db url like "cluster1.free.mongodb.com"
+        "username": os.getenv("mongodb_username"), #mongo db username. exmaple "ArtemBay"
         "auth":{
-            "debug":"", #mongo db password. looks like random symbols
-            "release": "" #same password with debug
+            "debug": os.getenv("mongodb_password"), #mongo db password. looks like random symbols
+            "release": os.getenv("mongodb_password") #same password with debug
         }
     }
-    qiwi_auth = "" #https://qiwi.com/p2p-admin/transfers/api
+    qiwi_auth = os.getenv("qiwi_2p2_token") #https://qiwi.com/p2p-admin/transfers/api
 
 class Other:
     shard_count = 1
